@@ -22,7 +22,7 @@ app.add_middleware(
         "http://localhost:3001",
         "http://localhost:8000",
         "https://hackthon-project-dusky.vercel.app",
-        "https://hackathon-project-a.vercel.app/"
+        "https://hackathon-project-a.vercel.app"
     ],
     allow_credentials=True,
     allow_methods=["*"],
