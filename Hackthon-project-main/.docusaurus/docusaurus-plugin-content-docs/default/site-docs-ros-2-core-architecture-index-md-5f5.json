@@ -1,0 +1,26 @@
+{
+  "id": "ros2/core-architecture/index",
+  "title": "Core Architecture",
+  "description": "At its heart, ROS 2 is a distributed system of processes (called \"nodes\") that communicate with each other to perform complex tasks.",
+  "source": "@site/docs/ros2/core-architecture/index.md",
+  "sourceDirName": "ros2/core-architecture",
+  "slug": "/ros2/core-architecture/",
+  "permalink": "/docs/ros2/core-architecture/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/ros2/core-architecture/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Core Architecture"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Introduction to ROS 2",
+    "permalink": "/docs/ros2/introduction/"
+  },
+  "next": {
+    "title": "Communication Patterns",
+    "permalink": "/docs/ros2/communication-patterns/"
+  }
+}

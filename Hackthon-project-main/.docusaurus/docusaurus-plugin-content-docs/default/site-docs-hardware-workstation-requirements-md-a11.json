@@ -1,0 +1,26 @@
+{
+  "id": "hardware/workstation-requirements",
+  "title": "Workstation Requirements",
+  "description": "Your workstation is the command center of your robotics development. It is where you will write code, run simulations, and analyze data. The requirements for a robotics workstation can vary depending on the complexity of your projects, but here are some general guidelines:",
+  "source": "@site/docs/hardware/workstation-requirements.md",
+  "sourceDirName": "hardware",
+  "slug": "/hardware/workstation-requirements",
+  "permalink": "/docs/hardware/workstation-requirements",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/hardware/workstation-requirements.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Workstation Requirements"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Building Your Robotics Lab",
+    "permalink": "/docs/hardware/introduction/"
+  },
+  "next": {
+    "title": "Edge Computing and the NVIDIA Jetson",
+    "permalink": "/docs/hardware/edge-computing-jetson"
+  }
+}

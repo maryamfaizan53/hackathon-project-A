@@ -1,0 +1,237 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "intro",
+          "docs": [
+            {
+              "id": "hardware/conclusion/index",
+              "path": "/docs/hardware/conclusion/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "hardware/edge-computing-jetson",
+              "path": "/docs/hardware/edge-computing-jetson",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "hardware/index",
+              "path": "/docs/hardware/"
+            },
+            {
+              "id": "hardware/introduction/index",
+              "path": "/docs/hardware/introduction/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "hardware/lab-infrastructure",
+              "path": "/docs/hardware/lab-infrastructure",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "hardware/sensors-actuators",
+              "path": "/docs/hardware/sensors-actuators",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "hardware/workstation-requirements",
+              "path": "/docs/hardware/workstation-requirements",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "humanoid-robotics/bipedal-locomotion",
+              "path": "/docs/humanoid-robotics/bipedal-locomotion",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "humanoid-robotics/conclusion/index",
+              "path": "/docs/humanoid-robotics/conclusion/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "humanoid-robotics/human-robot-interaction",
+              "path": "/docs/humanoid-robotics/human-robot-interaction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "humanoid-robotics/index",
+              "path": "/docs/humanoid-robotics/"
+            },
+            {
+              "id": "humanoid-robotics/introduction/index",
+              "path": "/docs/humanoid-robotics/introduction/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "humanoid-robotics/kinematics-dynamics",
+              "path": "/docs/humanoid-robotics/kinematics-dynamics",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "humanoid-robotics/manipulation-grasping",
+              "path": "/docs/humanoid-robotics/manipulation-grasping",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "intro",
+              "path": "/docs/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "physical-ai/conclusion/index",
+              "path": "/docs/physical-ai/conclusion/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "physical-ai/core-principles/index",
+              "path": "/docs/physical-ai/core-principles/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "physical-ai/digital-to-physical-transition/index",
+              "path": "/docs/physical-ai/digital-to-physical-transition/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "physical-ai/index",
+              "path": "/docs/physical-ai/"
+            },
+            {
+              "id": "physical-ai/introduction/index",
+              "path": "/docs/physical-ai/introduction/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "ros2/communication-patterns/index",
+              "path": "/docs/ros2/communication-patterns/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "ros2/conclusion/index",
+              "path": "/docs/ros2/conclusion/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "ros2/core-architecture/index",
+              "path": "/docs/ros2/core-architecture/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "ros2/index",
+              "path": "/docs/ros2/"
+            },
+            {
+              "id": "ros2/introduction/index",
+              "path": "/docs/ros2/introduction/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "ros2/python-integration-rclpy/index",
+              "path": "/docs/ros2/python-integration-rclpy/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "ros2/urdf/index",
+              "path": "/docs/ros2/urdf/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "simulation/conclusion/index",
+              "path": "/docs/simulation/conclusion/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "simulation/index",
+              "path": "/docs/simulation/"
+            },
+            {
+              "id": "simulation/introduction/index",
+              "path": "/docs/simulation/introduction/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "simulation/platforms/index",
+              "path": "/docs/simulation/platforms/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "simulation/sensor-simulation/index",
+              "path": "/docs/simulation/sensor-simulation/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "vla/conclusion/index",
+              "path": "/docs/vla/conclusion/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "vla/index",
+              "path": "/docs/vla/"
+            },
+            {
+              "id": "vla/introduction/index",
+              "path": "/docs/vla/introduction/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "vla/llm-role",
+              "path": "/docs/vla/llm-role",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "vla/pipeline",
+              "path": "/docs/vla/pipeline",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/physical-ai",
+              "path": "/docs/category/physical-ai",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/2-ros-2-robot-operating-system",
+              "path": "/docs/category/2-ros-2-robot-operating-system",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/3-robot-simulation",
+              "path": "/docs/category/3-robot-simulation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/5-vision-language-action-vla",
+              "path": "/docs/category/5-vision-language-action-vla",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/6-humanoid-robotics",
+              "path": "/docs/category/6-humanoid-robotics",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/7-hardware-setup",
+              "path": "/docs/category/7-hardware-setup",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/docs/intro",
+                "label": "intro"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

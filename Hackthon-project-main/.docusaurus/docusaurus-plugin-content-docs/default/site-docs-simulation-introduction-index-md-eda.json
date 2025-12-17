@@ -1,0 +1,26 @@
+{
+  "id": "simulation/introduction/index",
+  "title": "The Importance of Simulation in Robotics",
+  "description": "Simulation is an indispensable tool in modern robotics development. It provides a virtual environment where robots can be tested, trained, and debugged without the risk of damaging expensive hardware or endangering humans. The ability to simulate a robot's behavior in a controlled and repeatable manner accelerates the development process and enables the exploration of complex scenarios that would be difficult or impossible to test in the real world.",
+  "source": "@site/docs/simulation/introduction/index.md",
+  "sourceDirName": "simulation/introduction",
+  "slug": "/simulation/introduction/",
+  "permalink": "/docs/simulation/introduction/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/simulation/introduction/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "The Importance of Simulation in Robotics"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "3. Robot Simulation",
+    "permalink": "/docs/category/3-robot-simulation"
+  },
+  "next": {
+    "title": "Simulation Platforms: Gazebo vs. Unity",
+    "permalink": "/docs/simulation/platforms/"
+  }
+}

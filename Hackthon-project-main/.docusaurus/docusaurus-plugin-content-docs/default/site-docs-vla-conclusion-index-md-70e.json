@@ -1,0 +1,26 @@
+{
+  "id": "vla/conclusion/index",
+  "title": "Conclusion",
+  "description": "Vision-Language-Action models are a rapidly evolving area of AI with the potential to revolutionize the way we interact with robots. By combining the power of perception, language, and action, we can create truly intelligent agents that can understand our world and our intentions. As these models continue to improve, we can expect to see a new generation of robots that are more capable, more versatile, and more collaborative than ever before.",
+  "source": "@site/docs/vla/conclusion/index.md",
+  "sourceDirName": "vla/conclusion",
+  "slug": "/vla/conclusion/",
+  "permalink": "/docs/vla/conclusion/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/vla/conclusion/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Conclusion"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "The Role of Large Language Models in Robotics",
+    "permalink": "/docs/vla/llm-role"
+  },
+  "next": {
+    "title": "6. Humanoid Robotics",
+    "permalink": "/docs/category/6-humanoid-robotics"
+  }
+}

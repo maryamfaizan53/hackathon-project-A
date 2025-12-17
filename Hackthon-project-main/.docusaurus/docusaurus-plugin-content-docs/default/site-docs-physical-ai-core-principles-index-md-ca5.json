@@ -1,0 +1,26 @@
+{
+  "id": "physical-ai/core-principles/index",
+  "title": "Core Principles of Embodied Intelligence",
+  "description": "The core tenet of Embodied Intelligence is that intelligence is not an abstract property of a disembodied mind, but rather an emergent property of an agent's physical interactions with its environment. The body is not just a vessel for the brain; it is an integral part of the cognitive process.",
+  "source": "@site/docs/physical-ai/core-principles/index.md",
+  "sourceDirName": "physical-ai/core-principles",
+  "slug": "/physical-ai/core-principles/",
+  "permalink": "/docs/physical-ai/core-principles/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/physical-ai/core-principles/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Core Principles of Embodied Intelligence"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Introduction to Physical AI",
+    "permalink": "/docs/physical-ai/introduction/"
+  },
+  "next": {
+    "title": "The Digital-to-Physical Transition",
+    "permalink": "/docs/physical-ai/digital-to-physical-transition/"
+  }
+}

@@ -1,0 +1,859 @@
+/* ============================================
+   PROFESSIONAL HOMEPAGE - DARK NEON BLUE THEME
+   30 Years UI/UX Expert Design
+   ============================================ */
+
+/* Main Content - Professional Dark Background with Neon Particles */
+.mainContent {
+  background: linear-gradient(135deg, #000000 0%, #0a0a0a 50%, #000000 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+.mainContent::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(circle at 20% 30%, rgba(0, 217, 255, 0.15) 0%, transparent 50%),
+    radial-gradient(circle at 80% 70%, rgba(0, 240, 255, 0.1) 0%, transparent 50%);
+  pointer-events: none;
+  animation: ambientGlow 8s ease-in-out infinite;
+}
+
+@keyframes ambientGlow {
+  0%, 100% { opacity: 0.6; }
+  50% { opacity: 1; }
+}
+
+/* Fade In Animation */
+.fadeInSection {
+  opacity: 0;
+  transform: translateY(60px);
+  transition: opacity 1s cubic-bezier(0.4, 0, 0.2, 1),
+    transform 1s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.isVisible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ============================================
+   PROFESSIONAL NEON SECTION TITLES
+   ============================================ */
+
+.sectionTitle {
+  font-size: 4rem;
+  font-weight: 900;
+  color: #00d9ff;
+  position: relative;
+  display: inline-block;
+  margin-bottom: 4rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+@keyframes neonPulse {
+  0%, 100% {
+    /* text-shadow removed */
+  }
+  50% {
+    /* text-shadow removed */
+  }
+}
+
+.titleUnderline {
+  background: linear-gradient(90deg, #00d9ff, #00f0ff, #00d9ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  position: relative;
+  display: inline-block;
+}
+
+.titleUnderline::after {
+  content: '';
+  position: absolute;
+  bottom: -15px;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(90deg, transparent, #00d9ff, transparent);
+  border-radius: 2px;
+  box-shadow: 
+    0 0 15px rgba(0, 217, 255, 0.8),
+    0 0 30px rgba(0, 217, 255, 0.5);
+  animation: shimmerLine 2s ease-in-out infinite;
+}
+
+@keyframes shimmerLine {
+  0%, 100% {
+    box-shadow: 
+      0 0 15px rgba(0, 217, 255, 0.8),
+      0 0 30px rgba(0, 217, 255, 0.5);
+  }
+  50% {
+    box-shadow: 
+      0 0 25px rgba(0, 217, 255, 1),
+      0 0 50px rgba(0, 217, 255, 0.8);
+  }
+}
+
+/* ============================================
+   OVERVIEW SECTION
+   ============================================ */
+
+.overviewSection {
+  padding: 10rem 2rem;
+  position: relative;
+  background: linear-gradient(180deg, #000000 0%, rgba(10, 10, 10, 0.5) 50%, #000000 100%);
+}
+
+.overviewSection::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 3px;
+  height: 150px;
+  background: linear-gradient(to bottom, transparent, rgba(0, 217, 255, 1), transparent);
+  box-shadow: 0 0 20px rgba(0, 217, 255, 0.8);
+}
+
+.overviewText {
+  font-size: 1.4rem;
+  color: #ffffff;
+  line-height: 2;
+  max-width: 900px;
+  margin: 0 auto;
+  /* text-shadow removed */
+  font-weight: 400;
+  letter-spacing: 0.02em;
+}
+
+/* ==========================================
+   MODULES SECTION - PROFESSIONAL CARDS
+   ============================================ */
+
+.modulesSection {
+  padding: 10rem 2rem;
+  position: relative;
+  background: #000000;
+}
+
+.modulesSection::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(0, 217, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 217, 255, 0.03) 1px, transparent 1px);
+  background-size: 80px 80px;
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+.features {
+  position: relative;
+  z-index: 1;
+}
+
+.moduleCol {
+  margin-bottom: 3rem;
+  animation: fadeInUp 1s cubic-bezier(0.4, 0, 0.2, 1) backwards;
+}
+
+.moduleCol:nth-child(1) { animation-delay: 0.1s; }
+.moduleCol:nth-child(2) { animation-delay: 0.2s; }
+.moduleCol:nth-child(3) { animation-delay: 0.3s; }
+.moduleCol:nth-child(4) { animation-delay: 0.4s; }
+
+.moduleCard {
+  height: 100%;
+  background: linear-gradient(135deg,
+      rgba(0, 217, 255, 0.05),
+      rgba(20, 20, 20, 0.95));
+  border: 2px solid rgba(0, 217, 255, 0.4);
+  border-radius: 20px;
+  padding: 0;
+  overflow: hidden;
+  position: relative;
+  transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.moduleCard::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle, rgba(0, 217, 255, 0.15), transparent 70%);
+  opacity: 0;
+  transition: opacity 0.6s ease;
+  pointer-events: none;
+}
+
+.moduleCard:hover {
+  transform: translateY(-20px) scale(1.02);
+  border-color: rgba(0, 217, 255, 1);
+  box-shadow:
+    0 35px 70px rgba(0, 217, 255, 0.5),
+    0 0 80px rgba(0, 217, 255, 0.4),
+    inset 0 0 60px rgba(0, 217, 255, 0.1);
+}
+
+.moduleCard:hover::before {
+  opacity: 1;
+  animation: rotateGlow 15s linear infinite;
+}
+
+@keyframes rotateGlow {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.cardGlow {
+  position: absolute;
+  inset: -3px;
+  background: linear-gradient(135deg, #00d9ff, #00f0ff, #00d9ff);
+  border-radius: 20px;
+  opacity: 0;
+  filter: blur(30px);
+  transition: opacity 0.5s ease;
+  z-index: -1;
+}
+
+.moduleCard:hover .cardGlow {
+  opacity: 0.7;
+  animation: pulseGlow 2s ease-in-out infinite;
+}
+
+@keyframes pulseGlow {
+  0%, 100% { opacity: 0.5; }
+  50% { opacity: 0.9; }
+}
+
+.cardContent {
+  position: relative;
+  z-index: 1;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.iconWrapper {
+  position: relative;
+  width: 140px;
+  height: 140px;
+  margin-bottom: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.iconBackground {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(0, 217, 255, 0.3), rgba(0, 240, 255, 0.2));
+  border: 3px solid rgba(0, 217, 255, 0.6);
+  border-radius: 25px;
+  transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow:
+    0 15px 40px rgba(0, 217, 255, 0.4),
+    inset 0 5px 20px rgba(255, 255, 255, 0.1);
+}
+
+.moduleCard:hover .iconBackground {
+  transform: scale(1.2) rotate(15deg);
+  background: linear-gradient(135deg, rgba(0, 217, 255, 0.5), rgba(0, 240, 255, 0.4));
+  border-color: rgba(0, 217, 255, 1);
+  box-shadow:
+    0 25px 60px rgba(0, 217, 255, 0.7),
+    inset 0 5px 30px rgba(255, 255, 255, 0.2);
+}
+
+.moduleIcon {
+  font-size: 5rem;
+  position: relative;
+  z-index: 2;
+  display: block;
+  transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  filter: drop-shadow(0 8px 15px rgba(0, 217, 255, 0.6));
+}
+
+.moduleCard:hover .moduleIcon {
+  transform: scale(1.3) rotate(-15deg);
+  filter: drop-shadow(0 15px 30px rgba(0, 217, 255, 1));
+}
+
+.orbitParticle {
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  width: 15px;
+  height: 15px;
+  background: #00d9ff;
+  border-radius: 50%;
+  opacity: 0;
+  box-shadow: 
+    0 0 30px #00d9ff,
+    0 0 60px #00d9ff;
+  transition: opacity 0.3s ease;
+}
+
+.moduleCard:hover .orbitParticle {
+  opacity: 1;
+  animation: orbit 3s linear infinite;
+}
+
+@keyframes orbit {
+  0% {
+    transform: rotate(0deg) translateX(80px) rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg) translateX(80px) rotate(-360deg);
+  }
+}
+
+.moduleTitle {
+  font-size: 2rem;
+  font-weight: 900;
+  color: #00d9ff;
+  margin-bottom: 1.5rem;
+  line-height: 1.3;
+  /* text-shadow removed */
+  transition: all 0.4s ease;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.moduleCard:hover .moduleTitle {
+  /* text-shadow removed */
+  transform: translateX(10px);
+}
+
+.moduleDescription {
+  color: #ffffff;
+  font-size: 1.15rem;
+  line-height: 1.8;
+  margin-bottom: 2.5rem;
+  flex-grow: 1;
+  transition: color 0.3s ease;
+  font-weight: 400;
+}
+
+.cardFooter {
+  margin-top: auto;
+  padding-top: 2rem;
+  border-top: 2px solid rgba(0, 217, 255, 0.3);
+  transition: border-color 0.3s ease;
+}
+
+.moduleCard:hover .cardFooter {
+  border-color: rgba(0, 217, 255, 0.7);
+}
+
+.moduleButton {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1.3rem 2.5rem;
+  font-size: 1.15rem;
+  font-weight: 800;
+  background: rgba(0, 217, 255, 0.15);
+  border: 2px solid rgba(0, 217, 255, 0.5);
+  border-radius: 12px;
+  color: #ffffff;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.moduleButton::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(0, 217, 255, 0.4), rgba(0, 240, 255, 0.3));
+  transform: translateX(-100%);
+  transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.moduleButton:hover {
+  background: rgba(0, 217, 255, 0.3);
+  border-color: rgba(0, 217, 255, 1);
+  transform: translateY(-4px);
+  box-shadow:
+    0 15px 40px rgba(0, 217, 255, 0.6),
+    0 0 60px rgba(0, 217, 255, 0.4);
+  color: #ffffff;
+}
+
+.moduleButton:hover::before {
+  transform: translateX(0);
+}
+
+.buttonText {
+  position: relative;
+  z-index: 1;
+}
+
+.buttonArrow {
+  position: relative;
+  z-index: 1;
+  font-size: 1.8rem;
+  transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.moduleButton:hover .buttonArrow {
+  transform: translateX(8px);
+}
+
+/* ============================================
+   LEARNING OUTCOMES SECTION
+   ============================================ */
+
+.outcomesSection {
+  padding: 10rem 2rem;
+  background: #000000;
+  position: relative;
+}
+
+.outcomesIntro {
+  font-size: 1.3rem;
+  color: #ffffff;
+  line-height: 1.9;
+  font-weight: 400;
+}
+
+.outcomesList {
+  list-style: none;
+  padding: 0;
+  margin: 3rem 0;
+}
+
+.outcomesList li {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+  padding: 2rem;
+  margin-bottom: 1.5rem;
+  background: linear-gradient(90deg, rgba(0, 217, 255, 0.1), transparent);
+  border-left: 5px solid #00d9ff;
+  border-radius: 0 15px 15px 0;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  overflow: hidden;
+}
+
+.outcomesList li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 5px;
+  height: 100%;
+  background: linear-gradient(to bottom, #00d9ff, #00f0ff);
+  box-shadow: 0 0 15px rgba(0, 217, 255, 0.8);
+  transition: width 0.4s ease;
+}
+
+.outcomesList li:hover {
+  background: linear-gradient(90deg, rgba(0, 217, 255, 0.2), transparent);
+  transform: translateX(20px);
+  border-left-width: 8px;
+  box-shadow: 0 10px 30px rgba(0, 217, 255, 0.5);
+}
+
+.outcomesList li:hover::before {
+  width: 100%;
+  opacity: 0.1;
+}
+
+.bulletIcon {
+  font-size: 2rem;
+  flex-shrink: 0;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 217, 255, 0.2);
+  border-radius: 50%;
+  color: #00d9ff;
+  transition: all 0.3s ease;
+  box-shadow: 
+    0 5px 20px rgba(0, 217, 255, 0.5),
+    inset 0 0 15px rgba(0, 217, 255, 0.2);
+}
+
+.outcomesList li:hover .bulletIcon {
+  transform: scale(1.2) rotate(15deg);
+  background: rgba(0, 217, 255, 0.4);
+  box-shadow: 
+    0 8px 30px rgba(0, 217, 255, 0.8),
+    inset 0 0 25px rgba(0, 217, 255, 0.3);
+}
+
+.outcomesList li span:last-child {
+  color: #ffffff;
+  font-size: 1.1rem;
+  line-height: 1.7;
+  font-weight: 400;
+}
+
+/* ============================================
+   QUOTE SECTION
+   ============================================ */
+
+.quoteSection {
+  background: linear-gradient(135deg, rgba(20, 20, 20, 0.9), rgba(0, 0, 0, 0.95));
+  border: 3px solid rgba(0, 217, 255, 0.5);
+  border-radius: 30px;
+  padding: 8rem 3rem;
+  margin: 6rem auto;
+  max-width: 1400px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 
+    0 40px 100px rgba(0, 217, 255, 0.5),
+    inset 0 0 50px rgba(0, 217, 255, 0.1);
+  backdrop-filter: blur(20px);
+}
+
+.quoteSection::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle, rgba(0, 217, 255, 0.15), transparent 60%);
+  animation: pulsate 6s ease-in-out infinite;
+}
+
+@keyframes pulsate {
+  0%, 100% { opacity: 0.4; }
+  50% { opacity: 0.8; }
+}
+
+.quoteIcon {
+  font-size: 10rem;
+  color: rgba(0, 217, 255, 0.3);
+  font-family: Georgia, serif;
+  line-height: 0.5;
+  margin-bottom: 2rem;
+  position: relative;
+  z-index: 1;
+}
+
+.quoteTitle {
+  font-size: 3.5rem;
+  font-weight: 900;
+  color: #00d9ff;
+  margin-bottom: 3rem;
+  position: relative;
+  z-index: 1;
+  /* text-shadow removed */
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.quoteText {
+  font-size: 1.7rem;
+  font-style: italic;
+  color: #ffffff;
+  line-height: 2;
+  position: relative;
+  z-index: 1;
+  max-width: 1100px;
+  margin: 0 auto 3rem;
+  font-weight: 400;
+}
+
+.quoteAuthor {
+  color: #00d9ff;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 1.4rem;
+  margin-top: 3rem;
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  padding: 0.8rem 2rem;
+  background: rgba(0, 217, 255, 0.15);
+  border-radius: 50px;
+  border: 2px solid rgba(0, 217, 255, 0.5);
+  /* text-shadow removed */
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+/* ============================================
+   HARDWARE SECTION
+   ============================================ */
+
+.hardwareSection {
+  padding: 10rem 2rem;
+  background: linear-gradient(180deg, #000000 0%, rgba(10, 10, 10, 0.5) 50%, #000000 100%);
+}
+
+.hardwareIntro {
+  font-size: 1.3rem;
+  color: #ffffff;
+  line-height: 1.9;
+  font-weight: 400;
+}
+
+.hardwareCard {
+  background: linear-gradient(135deg, rgba(0, 217, 255, 0.05), rgba(20, 20, 20, 0.95));
+  border: 2px solid rgba(0, 217, 255, 0.4);
+  border-radius: 25px;
+  padding: 0;
+  transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  overflow: hidden;
+  backdrop-filter: blur(15px);
+  height: 100%;
+}
+
+.hardwareCard::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(0, 217, 255, 0), rgba(0, 217, 255, 0.15));
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.hardwareCard:hover {
+  border-color: rgba(0, 217, 255, 1);
+  transform: translateY(-20px) scale(1.02);
+  box-shadow: 0 30px 60px rgba(0, 217, 255, 0.6);
+}
+
+.hardwareCard:hover::before {
+  opacity: 1;
+}
+
+.hardwareCardInner {
+  padding: 3.5rem;
+  position: relative;
+  z-index: 1;
+}
+
+.hardwareIconWrapper {
+  width: 140px;
+  height: 140px;
+  background: rgba(0, 217, 255, 0.2);
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 2.5rem;
+  transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  border: 3px solid rgba(0, 217, 255, 0.5);
+  box-shadow: 
+    0 15px 40px rgba(0, 217, 255, 0.5),
+    inset 0 0 20px rgba(0, 217, 255, 0.2);
+}
+
+.hardwareCard:hover .hardwareIconWrapper {
+  background: rgba(0, 217, 255, 0.4);
+  transform: scale(1.2) rotate(10deg);
+  border-color: rgba(0, 217, 255, 1);
+  box-shadow: 
+    0 20px 50px rgba(0, 217, 255, 0.8),
+    inset 0 0 30px rgba(0, 217, 255, 0.3);
+}
+
+.hardwareIcon {
+  font-size: 5rem;
+  transition: all 0.5s ease;
+  filter: drop-shadow(0 5px 15px rgba(0, 217, 255, 0.6));
+}
+
+.hardwareCard:hover .hardwareIcon {
+  transform: scale(1.3) rotate(-10deg);
+  filter: drop-shadow(0 10px 25px rgba(0, 217, 255, 1));
+}
+
+.hardwareTitle {
+  font-size: 2rem;
+  font-weight: 900;
+  margin: 2.5rem 0 2rem;
+  color: #00d9ff;
+  /* text-shadow removed */
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.hardwareDescription {
+  color: #ffffff;
+  line-height: 1.9;
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+.hardwareButtonWrapper {
+  margin-top: 5rem;
+  text-align: center;
+}
+
+.hardwareButton {
+  position: relative;
+  overflow: hidden;
+  display: inline-flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.5rem 3.5rem;
+  font-size: 1.2rem;
+  font-weight: 800;
+  background: linear-gradient(135deg, rgba(0, 217, 255, 0.3), rgba(0, 240, 255, 0.2));
+  border: 3px solid #00d9ff;
+  border-radius: 12px;
+  box-shadow: 
+    0 20px 50px rgba(0, 217, 255, 0.7),
+    inset 0 0 20px rgba(0, 217, 255, 0.2);
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+}
+
+.hardwareButton::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(0, 217, 255, 0.5), transparent);
+  transform: translate(-50%, -50%);
+  transition: width 0.7s, height 0.7s;
+}
+
+.hardwareButton:hover {
+  background: linear-gradient(135deg, rgba(0, 217, 255, 0.5), rgba(0, 240, 255, 0.4));
+  box-shadow: 
+    0 25px 70px rgba(0, 217, 255, 1),
+    inset 0 0 30px rgba(0, 217, 255, 0.3);
+  transform: translateY(-5px) scale(1.05);
+  color: #ffffff;
+}
+
+.hardwareButton:hover::before {
+  width: 400px;
+  height: 400px;
+}
+
+.hardwareButton span:first-child {
+  position: relative;
+  z-index: 1;
+}
+
+.buttonArrowHardware {
+  position: relative;
+  z-index: 1;
+  font-size: 1.8rem;
+  transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hardwareButton:hover .buttonArrowHardware {
+  transform: translateX(10px);
+}
+
+/* ============================================
+   ANIMATIONS
+   ============================================ */
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(60px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ============================================
+   RESPONSIVE DESIGN
+   ============================================ */
+
+@media screen and (max-width: 996px) {
+  .sectionTitle {
+    font-size: 3rem;
+  }
+
+  .overviewSection,
+  .modulesSection,
+  .outcomesSection,
+  .hardwareSection {
+    padding: 6rem 2rem;
+  }
+
+  .overviewText {
+    font-size: 1.2rem;
+  }
+
+  .cardContent {
+    padding: 2.5rem;
+  }
+
+  .iconWrapper {
+    width: 120px;
+    height: 120px;
+  }
+
+  .moduleIcon {
+    font-size: 4rem;
+  }
+
+  .moduleTitle {
+    font-size: 1.7rem;
+  }
+
+  .quoteSection {
+    padding: 5rem 2rem;
+  }
+
+  .quoteTitle {
+    font-size: 2.5rem;
+  }
+
+  .quoteText {
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .sectionTitle {
+    font-size: 2.5rem;
+  }
+
+  .moduleTitle {
+    font-size: 1.5rem;
+  }
+
+  .moduleButton {
+    padding: 1rem 1.5rem;
+    font-size: 1rem;
+  }
+
+  .hardwareButton {
+    padding: 1.2rem 2.5rem;
+    font-size: 1rem;
+  }
+}

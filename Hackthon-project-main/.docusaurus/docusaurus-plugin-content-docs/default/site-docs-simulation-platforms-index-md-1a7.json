@@ -1,0 +1,26 @@
+{
+  "id": "simulation/platforms/index",
+  "title": "Simulation Platforms: Gazebo vs. Unity",
+  "description": "There are several robot simulation platforms available, each with its own strengths and weaknesses. Two of the most popular platforms in the robotics community are Gazebo and Unity.",
+  "source": "@site/docs/simulation/platforms/index.md",
+  "sourceDirName": "simulation/platforms",
+  "slug": "/simulation/platforms/",
+  "permalink": "/docs/simulation/platforms/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/simulation/platforms/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Simulation Platforms: Gazebo vs. Unity"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "The Importance of Simulation in Robotics",
+    "permalink": "/docs/simulation/introduction/"
+  },
+  "next": {
+    "title": "Sensor Simulation",
+    "permalink": "/docs/simulation/sensor-simulation/"
+  }
+}

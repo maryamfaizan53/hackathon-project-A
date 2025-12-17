@@ -1,0 +1,26 @@
+{
+  "id": "vla/llm-role",
+  "title": "روبوٹکس میں Large Language Models کا کردار",
+  "description": "Large Language Models (LLMs) میں حالیہ ترقیات نے روبوٹکس کے میدان پر گہرا اثر ڈالا ہے۔ LLMs صرف طاقتور زبان کے ماڈلز نہیں ہیں؛ یہ reasoning engines بھی ہیں جو روبوٹکس کے مختلف مسائل حل کرنے کے لیے استعمال ہو سکتے ہیں۔",
+  "source": "@site/i18n/ur/docusaurus-plugin-content-docs/current/vla/llm-role.md",
+  "sourceDirName": "vla",
+  "slug": "/vla/llm-role",
+  "permalink": "/ur/docs/vla/llm-role",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/vla/llm-role.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "روبوٹکس میں Large Language Models کا کردار"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "VLA پائپ لائن",
+    "permalink": "/ur/docs/vla/pipeline"
+  },
+  "next": {
+    "title": "نتیجہ",
+    "permalink": "/ur/docs/vla/conclusion/"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "physical-ai/digital-to-physical-transition/index",
+  "title": "The Digital-to-Physical Transition",
+  "description": "Bridging the gap between the digital and physical worlds is one of the biggest challenges in Physical AI. The real world is far more complex and unpredictable than any simulation.",
+  "source": "@site/docs/physical-ai/digital-to-physical-transition/index.md",
+  "sourceDirName": "physical-ai/digital-to-physical-transition",
+  "slug": "/physical-ai/digital-to-physical-transition/",
+  "permalink": "/docs/physical-ai/digital-to-physical-transition/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/physical-ai/digital-to-physical-transition/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "The Digital-to-Physical Transition"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Core Principles of Embodied Intelligence",
+    "permalink": "/docs/physical-ai/core-principles/"
+  },
+  "next": {
+    "title": "Conclusion",
+    "permalink": "/docs/physical-ai/conclusion/"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Physical AI Fundamentals": {
+    "message": "Physical AI Fundamentals",
+    "description": "The label for category 'Physical AI Fundamentals' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Physical AI Fundamentals.link.generated-index.title": {
+    "message": "Physical AI Fundamentals",
+    "description": "The generated-index page title for category 'Physical AI Fundamentals' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.ROS 2 (Robot Operating System)": {
+    "message": "ROS 2 (Robot Operating System)",
+    "description": "The label for category 'ROS 2 (Robot Operating System)' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.ROS 2 (Robot Operating System).link.generated-index.title": {
+    "message": "ROS 2 (Robot Operating System)",
+    "description": "The generated-index page title for category 'ROS 2 (Robot Operating System)' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Robot Simulation": {
+    "message": "Robot Simulation",
+    "description": "The label for category 'Robot Simulation' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Robot Simulation.link.generated-index.title": {
+    "message": "Robot Simulation",
+    "description": "The generated-index page title for category 'Robot Simulation' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.NVIDIA Isaac Platform": {
+    "message": "NVIDIA Isaac Platform",
+    "description": "The label for category 'NVIDIA Isaac Platform' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.NVIDIA Isaac Platform.link.generated-index.title": {
+    "message": "NVIDIA Isaac Platform",
+    "description": "The generated-index page title for category 'NVIDIA Isaac Platform' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Vision-Language-Action (VLA)": {
+    "message": "Vision-Language-Action (VLA)",
+    "description": "The label for category 'Vision-Language-Action (VLA)' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Vision-Language-Action (VLA).link.generated-index.title": {
+    "message": "Vision-Language-Action (VLA)",
+    "description": "The generated-index page title for category 'Vision-Language-Action (VLA)' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Humanoid Robotics": {
+    "message": "Humanoid Robotics",
+    "description": "The label for category 'Humanoid Robotics' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Humanoid Robotics.link.generated-index.title": {
+    "message": "Humanoid Robotics",
+    "description": "The generated-index page title for category 'Humanoid Robotics' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Hardware Setup": {
+    "message": "Hardware Setup",
+    "description": "The label for category 'Hardware Setup' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Hardware Setup.link.generated-index.title": {
+    "message": "Hardware Setup",
+    "description": "The generated-index page title for category 'Hardware Setup' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.tutorial-basics": {
+    "message": "tutorial-basics",
+    "description": "The label for category 'tutorial-basics' in sidebar 'tutorialSidebar'"
+  }
+}

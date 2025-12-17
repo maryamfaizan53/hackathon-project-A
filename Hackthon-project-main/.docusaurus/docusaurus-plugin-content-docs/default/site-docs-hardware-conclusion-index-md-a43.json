@@ -1,0 +1,22 @@
+{
+  "id": "hardware/conclusion/index",
+  "title": "Conclusion",
+  "description": "Setting up the right hardware is a critical first step in any robotics project. By choosing the right workstation, leveraging the power of edge computing, selecting the appropriate sensors and actuators, and outfitting your lab with the necessary infrastructure, you will be well on your way to building the next generation of intelligent robots.",
+  "source": "@site/docs/hardware/conclusion/index.md",
+  "sourceDirName": "hardware/conclusion",
+  "slug": "/hardware/conclusion/",
+  "permalink": "/docs/hardware/conclusion/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/hardware/conclusion/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Conclusion"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Lab Infrastructure",
+    "permalink": "/docs/hardware/lab-infrastructure"
+  }
+}

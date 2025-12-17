@@ -1,0 +1,28 @@
+{
+  "id": "physical-ai/introduction/index",
+  "title": "فزیکل AI کا تعارف",
+  "description": "فزیکل AI، جسے اکثر مجسم AI (Embodied AI) کے متبادل کے طور پر استعمال کیا جاتا ہے، مصنوعی ذہانت کے میدان میں ایک اہم تبدیلی کی نمائندگی کرتا ہے۔ یہ ڈیجیٹل کمپیوٹیشن اور ورچوئل ماحول کی حدود سے آگے بڑھ کر ایسے ذہین سسٹمز تخلیق کرتا ہے جو حقیقی دنیا میں محسوس، سوچ اور عمل کر سکتے ہیں۔ یہ وہی دنیا ہے جہاں روبوٹس چلتے ہیں، ڈرونز اُڑتے ہیں، اور خودکار گاڑیاں ہماری سڑکوں پر نیویگیٹ کرتی ہیں۔",
+  "source": "@site/i18n/ur/docusaurus-plugin-content-docs/current/physical-ai/introduction/index.md",
+  "sourceDirName": "physical-ai/introduction",
+  "slug": "/physical-ai/introduction/",
+  "permalink": "/ur/docs/physical-ai/introduction/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/physical-ai/introduction/index.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "فزیکل AI کا تعارف",
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "1. Physical AI Fundamentals",
+    "permalink": "/ur/docs/category/physical-ai"
+  },
+  "next": {
+    "title": "مجسم ذہانت کے بنیادی اصول",
+    "permalink": "/ur/docs/physical-ai/core-principles/"
+  }
+}

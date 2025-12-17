@@ -1,0 +1,34 @@
+{
+  "link.title.Learn": {
+    "message": "Learn",
+    "description": "The title of the footer links column with title=Learn in the footer"
+  },
+  "link.title.Community": {
+    "message": "Community",
+    "description": "The title of the footer links column with title=Community in the footer"
+  },
+  "link.title.More": {
+    "message": "More",
+    "description": "The title of the footer links column with title=More in the footer"
+  },
+  "link.item.label.Chapters": {
+    "message": "Chapters",
+    "description": "The label of footer link with label=Chapters linking to /docs/intro"
+  },
+  "link.item.label.Panaverse": {
+    "message": "Panaverse",
+    "description": "The label of footer link with label=Panaverse linking to #"
+  },
+  "link.item.label.Contact": {
+    "message": "Contact",
+    "description": "The label of footer link with label=Contact linking to #"
+  },
+  "link.item.label.GitHub": {
+    "message": "GitHub",
+    "description": "The label of footer link with label=GitHub linking to https://github.com/panaverse/physical-ai-textbook"
+  },
+  "copyright": {
+    "message": "Copyright © 2025 Panaverse. Built with Docusaurus.",
+    "description": "The footer copyright"
+  }
+}

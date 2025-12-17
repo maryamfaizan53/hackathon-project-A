@@ -1,0 +1,26 @@
+{
+  "id": "humanoid-robotics/kinematics-dynamics",
+  "title": "Kinematics and Dynamics",
+  "description": "The motion of a humanoid robot is governed by the principles of kinematics and dynamics.",
+  "source": "@site/docs/humanoid-robotics/kinematics-dynamics.md",
+  "sourceDirName": "humanoid-robotics",
+  "slug": "/humanoid-robotics/kinematics-dynamics",
+  "permalink": "/docs/humanoid-robotics/kinematics-dynamics",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/humanoid-robotics/kinematics-dynamics.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Kinematics and Dynamics"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "The Grand Challenge of Humanoid Robotics",
+    "permalink": "/docs/humanoid-robotics/introduction/"
+  },
+  "next": {
+    "title": "Bipedal Locomotion: The Art of Walking",
+    "permalink": "/docs/humanoid-robotics/bipedal-locomotion"
+  }
+}

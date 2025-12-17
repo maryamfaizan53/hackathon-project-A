@@ -1,0 +1,369 @@
+/**
+ * EXPERT PROFESSIONAL THEME - PHYSICAL AI & ROBOTICS
+ * Color Psychology: Intelligence (Blue) + Innovation (Violet) + Energy (Orange)
+ * Design Principle: Modern Minimalism with Strategic Neon Accents
+ * UX Focus: Maximum Readability + Visual Hierarchy + Professional Appeal
+ */
+
+:root {
+  /* Primary Brand Colors - Electric Blue (Trust, Intelligence, Technology) */
+  --ifm-color-primary: #0ea5e9;
+  --ifm-color-primary-dark: #0284c7;
+  --ifm-color-primary-darker: #0369a1;
+  --ifm-color-primary-darkest: #075985;
+  --ifm-color-primary-light: #38bdf8;
+  --ifm-color-primary-lighter: #7dd3fc;
+  --ifm-color-primary-lightest: #bae6fd;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(14, 165, 233, 0.12);
+
+  /* Expert Color Palette */
+  --color-electric-blue: #0ea5e9;
+  --color-electric-blue-glow: rgba(14, 165, 233, 0.6);
+  --color-violet: #8b5cf6;
+  --color-violet-glow: rgba(139, 92, 246, 0.5);
+  --color-amber: #f59e0b;
+  --color-amber-glow: rgba(245, 158, 11, 0.5);
+  --color-emerald: #10b981;
+  --color-emerald-glow: rgba(16, 185, 129, 0.5);
+
+  /* Professional Dark Palette */
+  --bg-space-black: #0c0a09;
+  --bg-slate-dark: #0f172a;
+  --bg-slate-medium: #1e293b;
+  --bg-slate-light: #334155;
+
+  /* Glass Morphism */
+  --glass-bg: rgba(15, 23, 42, 0.75);
+  --glass-border: rgba(148, 163, 184, 0.1);
+  --glass-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+
+  /* Typography */
+  --text-primary: #f8fafc;
+  --text-secondary: #cbd5e1;
+  --text-tertiary: #94a3b8;
+  --text-muted: #64748b;
+}
+
+/* Professional Dark Theme */
+html[data-theme='dark'],
+html[data-theme='light'] {
+  --ifm-background-color: var(--bg-space-black);
+  --ifm-font-color-base: var(--text-primary);
+  --ifm-color-primary: #0ea5e9;
+  --ifm-color-primary-dark: #0284c7;
+  --ifm-color-primary-darker: #0369a1;
+  --ifm-color-primary-darkest: #075985;
+  --ifm-color-primary-light: #38bdf8;
+  --ifm-color-primary-lighter: #7dd3fc;
+  --ifm-color-primary-lightest: #bae6fd;
+  --docusaurus-highlighted-code-line-bg: rgba(14, 165, 233, 0.15);
+}
+
+/* Refined Body Background - Deep Space with Subtle Gradient */
+body {
+  background: radial-gradient(ellipse at top,
+      #1e293b 0%,
+      #0f172a 40%,
+      var(--bg-space-black) 100%);
+  color: var(--text-primary);
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
+}
+
+/* Sophisticated Glow Animation */
+@keyframes sophisticatedGlow {
+
+  0%,
+  100% {
+    box-shadow:
+      0 0 20px rgba(14, 165, 233, 0.3),
+      0 0 40px rgba(139, 92, 246, 0.2);
+  }
+
+  50% {
+    box-shadow:
+      0 0 30px rgba(14, 165, 233, 0.5),
+      0 0 60px rgba(139, 92, 246, 0.3);
+  }
+}
+
+/* Premium Headings with Gradient */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  background: linear-gradient(135deg, var(--color-electric-blue), var(--color-violet));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 700 !important;
+  letter-spacing: -0.02em;
+  position: relative;
+  filter: drop-shadow(0 2px 8px rgba(14, 165, 233, 0.3));
+}
+
+/* H1 Elegant Underline */
+h1::after,
+.theme-doc-markdown h1::after {
+  content: '';
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+  width: 60px;
+  height: 3px;
+  background: linear-gradient(90deg, var(--color-electric-blue), transparent);
+  border-radius: 2px;
+}
+
+/* Glassmorphism Forms - Premium Feel */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 32px;
+  background: var(--glass-bg);
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  border: 1px solid var(--glass-border);
+  border-radius: 16px;
+  box-shadow:
+    var(--glass-shadow),
+    0 0 0 1px rgba(148, 163, 184, 0.05);
+  max-width: 480px;
+  margin: 30px auto;
+}
+
+form input[type="email"],
+form input[type="password"],
+form input[type="text"],
+form select {
+  padding: 14px 16px;
+  border: 1.5px solid rgba(148, 163, 184, 0.2);
+  border-radius: 10px;
+  background: rgba(15, 23, 42, 0.6);
+  color: var(--text-primary);
+  font-size: 16px;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  outline: none;
+}
+
+form input:focus,
+form select:focus {
+  border-color: var(--color-electric-blue);
+  background: rgba(15, 23, 42, 0.8);
+  box-shadow:
+    0 0 0 3px rgba(14, 165, 233, 0.1),
+    0 4px 12px rgba(14, 165, 233, 0.15);
+}
+
+/* Premium Button Design */
+form button[type="submit"] {
+  padding: 14px 32px;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(135deg, var(--color-electric-blue), var(--color-violet));
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  text-transform: none;
+  letter-spacing: 0.02em;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 4px 14px rgba(14, 165, 233, 0.4);
+}
+
+form button[type="submit"]:hover {
+  transform: translateY(-2px);
+  box-shadow:
+    0 8px 24px rgba(14, 165, 233, 0.5),
+    0 4px 12px rgba(139, 92, 246, 0.3);
+}
+
+form button[type="submit"]:active {
+  transform: translateY(0);
+}
+
+/* Premium Navbar - Glassmorphism */
+.navbar {
+  background: rgba(12, 10, 9, 0.8) !important;
+  backdrop-filter: blur(12px) saturate(180%);
+  -webkit-backdrop-filter: blur(12px) saturate(180%);
+  border-bottom: 1px solid rgba(148, 163, 184, 0.1);
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.4);
+}
+
+.navbar__title {
+  background: linear-gradient(90deg, var(--color-electric-blue), var(--color-violet));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 700 !important;
+  filter: drop-shadow(0 2px 4px rgba(14, 165, 233, 0.3));
+}
+
+.navbar__link {
+  color: var(--text-secondary) !important;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.navbar__link:hover {
+  color: var(--color-electric-blue) !important;
+}
+
+/* Professional Sidebar */
+.theme-doc-sidebar-container {
+  background: rgba(15, 23, 42, 0.6) !important;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-right: 1px solid rgba(148, 163, 184, 0.1);
+}
+
+.menu__link {
+  color: var(--text-secondary) !important;
+  transition: all 0.2s ease;
+  border-radius: 6px;
+  margin: 2px 8px;
+  padding: 6px 12px;
+}
+
+.menu__link:hover {
+  background: rgba(14, 165, 233, 0.1) !important;
+  color: var(--color-electric-blue) !important;
+}
+
+.menu__link--active {
+  background: linear-gradient(90deg, rgba(14, 165, 233, 0.15), transparent) !important;
+  color: var(--color-electric-blue) !important;
+  border-left: 3px solid var(--color-electric-blue);
+  padding-left: 9px;
+}
+
+/* Code Blocks - Professional Styling */
+pre {
+  background: rgba(15, 23, 42, 0.8) !important;
+  border: 1px solid rgba(148, 163, 184, 0.1) !important;
+  border-radius: 12px !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3) !important;
+}
+
+code {
+  background: rgba(14, 165, 233, 0.1) !important;
+  color: var(--color-electric-blue) !important;
+  border-radius: 4px;
+  padding: 2px 6px;
+  font-size: 0.9em;
+}
+
+/* Links - Refined */
+a {
+  color: var(--color-electric-blue);
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+a:hover {
+  color: var(--color-violet);
+  text-decoration: underline;
+  text-decoration-color: rgba(139, 92, 246, 0.4);
+}
+
+/* Premium Scrollbar */
+::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-slate-dark);
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, var(--color-electric-blue), var(--color-violet));
+  border-radius: 6px;
+  border: 2px solid var(--bg-slate-dark);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, var(--color-violet), var(--color-electric-blue));
+  box-shadow: 0 0 8px rgba(14, 165, 233, 0.5);
+}
+
+/* Selection */
+::selection {
+  background: rgba(14, 165, 233, 0.3);
+  color: var(--text-primary);
+}
+
+/* Footer - Professional */
+[data-theme='dark'] footer.footer--dark {
+  --ifm-footer-background-color: var(--bg-space-black) !important;
+  background: linear-gradient(180deg, rgba(15, 23, 42, 0.8), var(--bg-space-black)) !important;
+  border-top: 1px solid rgba(148, 163, 184, 0.1);
+}
+
+[data-theme='dark'] footer.footer--dark .footer__title {
+  color: var(--color-electric-blue) !important;
+  font-weight: 600;
+}
+
+[data-theme='dark'] footer.footer--dark .footer__link-item {
+  color: var(--text-secondary) !important;
+  transition: color 0.2s ease;
+}
+
+[data-theme='dark'] footer.footer--dark .footer__link-item:hover {
+  color: var(--color-electric-blue) !important;
+}
+
+/* Subtle Ambient Background Effect */
+body::before {
+  content: '';
+  position: fixed;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle at 50% 50%,
+      rgba(14, 165, 233, 0.03) 0%,
+      transparent 50%);
+  pointer-events: none;
+  z-index: 0;
+  animation: ambientPulse 15s ease-in-out infinite;
+}
+
+@keyframes ambientPulse {
+
+  0%,
+  100% {
+    opacity: 0.5;
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+/* Professional Card Styling */
+.card {
+  background: var(--glass-bg);
+  backdrop-filter: blur(12px);
+  border: 1px solid var(--glass-border);
+  border-radius: 12px;
+  box-shadow: var(--glass-shadow);
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow:
+    0 12px 40px rgba(0, 0, 0, 0.5),
+    0 0 0 1px rgba(14, 165, 233, 0.1);
+}

@@ -1,0 +1,17 @@
+{
+  "id": "ros2/index",
+  "title": "ROS 2 (Robot Operating System)",
+  "description": "Introduction to ROS 2",
+  "source": "@site/docs/ros2/index.md",
+  "sourceDirName": "ros2",
+  "slug": "/ros2/",
+  "permalink": "/docs/ros2/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/ros2/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "ROS 2 (Robot Operating System)"
+  }
+}

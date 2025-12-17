@@ -1,0 +1,26 @@
+{
+  "id": "humanoid-robotics/human-robot-interaction",
+  "title": "Human-Robot Interaction (HRI)",
+  "description": "As humanoid robots become more prevalent in our daily lives, it is crucial that they can interact with humans in a safe, natural, and intuitive way. This is the domain of Human-Robot Interaction (HRI).",
+  "source": "@site/docs/humanoid-robotics/human-robot-interaction.md",
+  "sourceDirName": "humanoid-robotics",
+  "slug": "/humanoid-robotics/human-robot-interaction",
+  "permalink": "/docs/humanoid-robotics/human-robot-interaction",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/humanoid-robotics/human-robot-interaction.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Human-Robot Interaction (HRI)"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Manipulation and Grasping",
+    "permalink": "/docs/humanoid-robotics/manipulation-grasping"
+  },
+  "next": {
+    "title": "Conclusion",
+    "permalink": "/docs/humanoid-robotics/conclusion/"
+  }
+}

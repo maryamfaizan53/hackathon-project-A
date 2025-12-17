@@ -1,0 +1,26 @@
+{
+  "id": "ros2/introduction/index",
+  "title": "ROS 2 کا تعارف",
+  "description": "Robot Operating System (ROS) روبوٹ سافٹ ویئر لکھنے کے لیے ایک لچکدار فریم ورک ہے۔ یہ tools، libraries، اور conventions کا ایک مجموعہ ہے جو مختلف روبوٹک پلیٹ فارمز پر پیچیدہ اور مضبوط روبوٹ رویہ بنانے کے کام کو آسان بناتا ہے۔",
+  "source": "@site/i18n/ur/docusaurus-plugin-content-docs/current/ros2/introduction/index.md",
+  "sourceDirName": "ros2/introduction",
+  "slug": "/ros2/introduction/",
+  "permalink": "/ur/docs/ros2/introduction/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/ros2/introduction/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "ROS 2 کا تعارف"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "2. ROS 2 (Robot Operating System)",
+    "permalink": "/ur/docs/category/2-ros-2-robot-operating-system"
+  },
+  "next": {
+    "title": "بنیادی فن تعمیر",
+    "permalink": "/ur/docs/ros2/core-architecture/"
+  }
+}

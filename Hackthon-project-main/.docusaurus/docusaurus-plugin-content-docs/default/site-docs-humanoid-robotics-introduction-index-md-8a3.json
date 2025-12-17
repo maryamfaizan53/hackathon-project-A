@@ -1,0 +1,26 @@
+{
+  "id": "humanoid-robotics/introduction/index",
+  "title": "The Grand Challenge of Humanoid Robotics",
+  "description": "Humanoid robots, with their human-like form and capabilities, represent one of the grand challenges of robotics. The goal is to create machines that can operate in human-centric environments, use human tools, and interact with humans in a natural and intuitive way.",
+  "source": "@site/docs/humanoid-robotics/introduction/index.md",
+  "sourceDirName": "humanoid-robotics/introduction",
+  "slug": "/humanoid-robotics/introduction/",
+  "permalink": "/docs/humanoid-robotics/introduction/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/humanoid-robotics/introduction/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "The Grand Challenge of Humanoid Robotics"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "6. Humanoid Robotics",
+    "permalink": "/docs/category/6-humanoid-robotics"
+  },
+  "next": {
+    "title": "Kinematics and Dynamics",
+    "permalink": "/docs/humanoid-robotics/kinematics-dynamics"
+  }
+}

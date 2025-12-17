@@ -1,0 +1,26 @@
+{
+  "id": "humanoid-robotics/introduction/index",
+  "title": "ہیومینائیڈ روبوٹکس کا عظیم چیلنج",
+  "description": "ہیومینائیڈ روبوٹس، اپنی انسانی شکل اور صلاحیتوں کے ساتھ، روبوٹکس کے سب سے بڑے چیلنجز میں سے ایک ہیں۔ مقصد یہ ہے کہ ایسی مشینیں تیار کی جائیں جو انسانی ماحول میں کام کر سکیں، انسانی اوزار استعمال کر سکیں، اور انسانوں کے ساتھ قدرتی اور آسان انداز میں تعامل کر سکیں۔",
+  "source": "@site/i18n/ur/docusaurus-plugin-content-docs/current/humanoid-robotics/introduction/index.md",
+  "sourceDirName": "humanoid-robotics/introduction",
+  "slug": "/humanoid-robotics/introduction/",
+  "permalink": "/ur/docs/humanoid-robotics/introduction/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/humanoid-robotics/introduction/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "ہیومینائیڈ روبوٹکس کا عظیم چیلنج"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "6. Humanoid Robotics",
+    "permalink": "/ur/docs/category/6-humanoid-robotics"
+  },
+  "next": {
+    "title": "کائنیماٹکس اور ڈائنامکس",
+    "permalink": "/ur/docs/humanoid-robotics/kinematics-dynamics"
+  }
+}

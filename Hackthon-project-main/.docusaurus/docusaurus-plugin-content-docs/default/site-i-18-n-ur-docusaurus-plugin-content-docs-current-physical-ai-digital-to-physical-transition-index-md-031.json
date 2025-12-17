@@ -1,0 +1,26 @@
+{
+  "id": "physical-ai/digital-to-physical-transition/index",
+  "title": "ڈیجیٹل سے فزیکل منتقلی",
+  "description": "ڈیجیٹل اور فزیکل دنیا کے درمیان پل بنانا فزیکل AI میں سب سے بڑے چیلنجز میں سے ایک ہے۔ حقیقی دنیا کسی بھی سیمولیشن سے کہیں زیادہ پیچیدہ اور غیر متوقع ہے۔",
+  "source": "@site/i18n/ur/docusaurus-plugin-content-docs/current/physical-ai/digital-to-physical-transition/index.md",
+  "sourceDirName": "physical-ai/digital-to-physical-transition",
+  "slug": "/physical-ai/digital-to-physical-transition/",
+  "permalink": "/ur/docs/physical-ai/digital-to-physical-transition/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/physical-ai/digital-to-physical-transition/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "ڈیجیٹل سے فزیکل منتقلی"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "مجسم ذہانت کے بنیادی اصول",
+    "permalink": "/ur/docs/physical-ai/core-principles/"
+  },
+  "next": {
+    "title": "نتیجہ",
+    "permalink": "/ur/docs/physical-ai/conclusion/"
+  }
+}

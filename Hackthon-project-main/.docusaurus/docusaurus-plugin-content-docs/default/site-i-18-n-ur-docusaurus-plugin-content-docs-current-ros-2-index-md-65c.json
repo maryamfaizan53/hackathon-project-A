@@ -1,0 +1,17 @@
+{
+  "id": "ros2/index",
+  "title": "ROS 2 (روبوٹ آپریٹنگ سسٹم)",
+  "description": "ROS 2 کا تعارف",
+  "source": "@site/i18n/ur/docusaurus-plugin-content-docs/current/ros2/index.md",
+  "sourceDirName": "ros2",
+  "slug": "/ros2/",
+  "permalink": "/ur/docs/ros2/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/ros2/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "ROS 2 (روبوٹ آپریٹنگ سسٹم)"
+  }
+}

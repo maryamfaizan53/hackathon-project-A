@@ -1,0 +1,139 @@
+/* New Docusaurus Sidebar Styling */
+
+.theme-doc-sidebar-container {
+  background-color: var(--ifm-background-color); /* Black background for the entire sidebar */
+  border-right: 1px solid #333; /* Subtle border to separate from content */
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.menu__list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.menu__list-item {
+  margin-bottom: 0.25rem;
+}
+
+.menu__link {
+  color: var(--ifm-font-color-base); /* White text for all sidebar links */
+  background-color: transparent;
+  padding: 0.7rem 1rem; /* Consistent padding for better spacing */
+  border-radius: 4px;
+  transition: background-color 0.2s, color 0.2s, border-left-color 0.2s;
+  display: flex;
+  align-items: center;
+  border-left: 3px solid transparent; /* Border for active state */
+}
+
+.menu__link:hover {
+  color: var(--ifm-color-primary-light); /* Lighter red on hover */
+  background-color: #1a1a1a; /* Dark gray for subtle hover effect */
+  text-decoration: none;
+  border-left-color: var(--ifm-color-primary-light); /* Accent border on hover */
+}
+
+.menu__link--active {
+  background-color: var(--ifm-color-primary-darker); /* Darker red background for active link */
+  color: var(--ifm-font-color-base); /* White text for active link */
+  font-weight: bold;
+  border-left-color: var(--ifm-color-primary); /* Primary red border for active */
+}
+
+.menu__link--active:hover {
+  color: var(--ifm-font-color-base); /* Keep white on hover for active link */
+  background-color: var(--ifm-color-primary-dark); /* Slightly darker red on hover for active */
+}
+
+/* Styling for collapsible categories */
+.theme-doc-sidebar-item-category-parent > .menu__list-item-collapsible-header > .menu__link {
+  color: white; /* White text for maximum contrast */
+  background: linear-gradient(90deg, #CC0000 0%, #000000 100%); /* Strong gradient background */
+  font-weight: 800; /* Extra bold */
+  font-size: 1.4em; /* Significantly larger font */
+  padding: 1rem 1.2rem; /* Increased padding */
+  margin-bottom: 0.2rem; /* Reduced margin to topics are closer when expanded */
+  border: none; /* Remove individual border as gradient acts as one */
+  box-shadow: 0 4px 10px rgba(255, 0, 0, 0.4); /* Stronger shadow */
+  border-radius: 8px; /* More rounded corners */
+  letter-spacing: 0.05em; /* Slight letter spacing for emphasis */
+  text-transform: uppercase; /* Uppercase for maximum distinction */
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Space out title and caret */
+}
+
+/* Hover effect for chapter titles */
+.theme-doc-sidebar-item-category-parent > .menu__list-item-collapsible-header > .menu__link:hover {
+  background: linear-gradient(90deg, #FF3333 0%, #111111 100%); /* Lighter red on hover */
+  box-shadow: 0 6px 15px rgba(255, 0, 0, 0.6); /* More intense shadow on hover */
+  color: white; /* Keep white on hover */
+  text-decoration: none;
+}
+
+/* Caret for chapter titles */
+.theme-doc-sidebar-item-category-parent .menu__caret {
+  color: white; /* White caret */
+  font-size: 1.2em;
+}
+
+
+/* Arrow/icon for collapsible items */
+.menu__caret {
+  color: var(--ifm-font-color-base); /* White caret icon */
+  transition: transform 0.2s;
+}
+
+.menu__list-item--collapsed .menu__caret {
+  transform: rotate(-90deg);
+}
+
+/* Adjust padding for nested items */
+.menu__list-item-collapsible .menu__list {
+  padding-left: 1rem; /* Keeps a small internal padding */
+  border-left: 1px solid #555; /* Subtle border-left for the entire nested block */
+  margin-left: 3.5rem; /* Significantly increased margin-left for the entire nested block */
+  padding-top: 0.5rem; /* More space above topics */
+  padding-bottom: 0.5rem; /* More space below topics */
+  margin-top: 0.5rem; /* Space between chapter title and topics */
+  border-radius: 0 0 4px 4px; /* Rounded bottom corners */
+}
+
+
+/* Ensure nested links also have appropriate styling */
+.menu__list-item-collapsible .menu__link {
+  color: var(--ifm-font-color-base); /* White for nested links */
+  padding-top: 0.5rem; /* Revert vertical padding */
+  padding-bottom: 0.5rem; /* Revert vertical padding */
+  font-size: 0.85em; /* Smaller font for topics */
+  font-weight: normal; /* Ensure normal font-weight for sub-topics */
+  position: relative; /* Needed for absolute positioning of pseudo-element */
+  padding-left: 1.8rem; /* Increased padding-left to push text more, arrow stays at 0.5rem */
+  border-left: 1px solid transparent; /* Very subtle border for active/hover state */
+}
+
+/* Arrow styling for junior topics */
+.menu__list-item-collapsible .menu__link::before {
+  content: '➢'; /* Slightly different arrow for junior topics */
+  position: absolute;
+  left: 0.5rem; /* Position the arrow */
+  color: var(--ifm-color-primary-light); /* Color of the arrow */
+  font-weight: normal; /* Not bold */
+  font-size: 0.8em; /* Smaller arrow */
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.menu__list-item-collapsible .menu__link:hover {
+  color: var(--ifm-color-primary); /* Primary red on hover */
+  background-color: #1a1a1a;
+  border-left-color: var(--ifm-color-primary); /* Accent border on hover */
+}
+
+.menu__list-item-collapsible .menu__link--active {
+  background-color: var(--ifm-color-primary-darker);
+  color: white; /* White text for active */
+  border-left-color: var(--ifm-color-primary); /* Primary red border for active */
+  font-weight: bold; /* Make active nested link bold */
+}

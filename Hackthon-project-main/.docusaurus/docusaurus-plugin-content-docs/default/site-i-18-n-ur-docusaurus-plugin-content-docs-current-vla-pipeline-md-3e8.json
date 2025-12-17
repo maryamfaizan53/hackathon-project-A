@@ -1,0 +1,26 @@
+{
+  "id": "vla/pipeline",
+  "title": "VLA پائپ لائن",
+  "description": "ایک عام VLA پائپ لائن تین اہم مراحل پر مشتمل ہوتی ہے:",
+  "source": "@site/i18n/ur/docusaurus-plugin-content-docs/current/vla/pipeline.md",
+  "sourceDirName": "vla",
+  "slug": "/vla/pipeline",
+  "permalink": "/ur/docs/vla/pipeline",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/vla/pipeline.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "VLA پائپ لائن"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "perception، language، اور action کا امتزاج",
+    "permalink": "/ur/docs/vla/introduction/"
+  },
+  "next": {
+    "title": "روبوٹکس میں Large Language Models کا کردار",
+    "permalink": "/ur/docs/vla/llm-role"
+  }
+}

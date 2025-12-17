@@ -1,0 +1,17 @@
+{
+  "id": "humanoid-robotics/index",
+  "title": "Humanoid Robotics",
+  "description": "The Grand Challenge of Humanoid Robotics",
+  "source": "@site/docs/humanoid-robotics/index.md",
+  "sourceDirName": "humanoid-robotics",
+  "slug": "/humanoid-robotics/",
+  "permalink": "/docs/humanoid-robotics/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/humanoid-robotics/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Humanoid Robotics"
+  }
+}

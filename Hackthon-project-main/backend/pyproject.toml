@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "backend"
+version = "0.1.0"
+description = "FastAPI Backend with AI Support using Google Gemini"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi",
+    "uvicorn[standard]",
+    "python-jose[cryptography]",
+    "passlib[bcrypt]",
+    "python-multipart",
+    "psycopg2-binary",
+    "openai",
+    "requests",
+    "qdrant-client",
+    "python-dotenv",
+    "pydantic>=2.0",
+    "pydantic-settings",
+    "google-generativeai",
+    "email-validator",
+]
+
+[tool.setuptools]
+packages = ["app"]
+

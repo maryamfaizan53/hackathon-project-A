@@ -1,0 +1,26 @@
+{
+  "id": "vla/conclusion/index",
+  "title": "نتیجہ",
+  "description": "ویژن-لینگویج-ایکشن ماڈلز AI کا ایک تیزی سے ترقی پذیر شعبہ ہیں جو ہمارے روبوٹس کے ساتھ تعامل کرنے کے طریقے کو بدلنے کی صلاحیت رکھتے ہیں۔ perception، زبان، اور عمل کی طاقت کو یکجا کر کے، ہم واقعی ذہین ایجنٹس تخلیق کر سکتے ہیں جو ہماری دنیا اور ہماری نیتوں کو سمجھ سکیں۔ جیسے جیسے یہ ماڈلز بہتر ہوتے جائیں گے، ہم روبوٹس کی ایک نئی نسل دیکھنے کی توقع کر سکتے ہیں جو پہلے سے زیادہ قابل، زیادہ ورسٹائل، اور زیادہ تعاون کرنے والے ہوں گے۔",
+  "source": "@site/i18n/ur/docusaurus-plugin-content-docs/current/vla/conclusion/index.md",
+  "sourceDirName": "vla/conclusion",
+  "slug": "/vla/conclusion/",
+  "permalink": "/ur/docs/vla/conclusion/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/vla/conclusion/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "نتیجہ"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "روبوٹکس میں Large Language Models کا کردار",
+    "permalink": "/ur/docs/vla/llm-role"
+  },
+  "next": {
+    "title": "6. Humanoid Robotics",
+    "permalink": "/ur/docs/category/6-humanoid-robotics"
+  }
+}

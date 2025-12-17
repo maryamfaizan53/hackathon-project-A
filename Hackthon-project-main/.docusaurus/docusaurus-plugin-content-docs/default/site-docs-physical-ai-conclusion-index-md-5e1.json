@@ -1,0 +1,26 @@
+{
+  "id": "physical-ai/conclusion/index",
+  "title": "Conclusion",
+  "description": "Physical AI is a rapidly advancing field with the potential to revolutionize our world. By creating intelligent agents that can operate in the physical world, we can automate dangerous and tedious tasks, assist the elderly and disabled, and explore new frontiers in science and space.",
+  "source": "@site/docs/physical-ai/conclusion/index.md",
+  "sourceDirName": "physical-ai/conclusion",
+  "slug": "/physical-ai/conclusion/",
+  "permalink": "/docs/physical-ai/conclusion/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/physical-ai/conclusion/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Conclusion"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "The Digital-to-Physical Transition",
+    "permalink": "/docs/physical-ai/digital-to-physical-transition/"
+  },
+  "next": {
+    "title": "2. ROS 2 (Robot Operating System)",
+    "permalink": "/docs/category/2-ros-2-robot-operating-system"
+  }
+}

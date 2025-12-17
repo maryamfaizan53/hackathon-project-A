@@ -1,0 +1,26 @@
+{
+  "id": "simulation/conclusion/index",
+  "title": "Conclusion",
+  "description": "Simulation is a critical tool for modern robotics development. Platforms like Gazebo and Unity provide powerful and flexible environments for testing, training, and debugging robots. By understanding the strengths and weaknesses of different platforms and the principles of sensor simulation, you will be well-equipped to leverage simulation to accelerate your robotics projects.",
+  "source": "@site/docs/simulation/conclusion/index.md",
+  "sourceDirName": "simulation/conclusion",
+  "slug": "/simulation/conclusion/",
+  "permalink": "/docs/simulation/conclusion/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/simulation/conclusion/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Conclusion"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Sensor Simulation",
+    "permalink": "/docs/simulation/sensor-simulation/"
+  },
+  "next": {
+    "title": "5. Vision-Language-Action (VLA)",
+    "permalink": "/docs/category/5-vision-language-action-vla"
+  }
+}

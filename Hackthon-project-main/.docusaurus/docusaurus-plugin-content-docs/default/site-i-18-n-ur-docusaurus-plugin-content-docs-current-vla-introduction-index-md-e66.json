@@ -1,0 +1,26 @@
+{
+  "id": "vla/introduction/index",
+  "title": "perception، language، اور action کا امتزاج",
+  "description": "ویژن-لینگویج-ایکشن (VLA) ماڈلز AI کی جدید ترین حد کی نمائندگی کرتے ہیں، جو تین مختلف شعبوں کو یکجا کر کے واقعی ذہین ایجنٹس تخلیق کرتے ہیں جو دنیا کو انسانی انداز میں سمجھ اور اس کے ساتھ تعامل کر سکتے ہیں۔ VLAs وہ کلید ہیں جو ایسے روبوٹس بنانے کے لیے ضروری ہیں جو قدرتی زبان کے احکامات پر عمل کر سکیں، مشاہدے سے نئے کام سیکھ سکیں، اور مشترکہ ماحول میں انسانوں کے ساتھ تعاون کر سکیں۔",
+  "source": "@site/i18n/ur/docusaurus-plugin-content-docs/current/vla/introduction/index.md",
+  "sourceDirName": "vla/introduction",
+  "slug": "/vla/introduction/",
+  "permalink": "/ur/docs/vla/introduction/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/vla/introduction/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "perception، language، اور action کا امتزاج"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "5. Vision-Language-Action (VLA)",
+    "permalink": "/ur/docs/category/5-vision-language-action-vla"
+  },
+  "next": {
+    "title": "VLA پائپ لائن",
+    "permalink": "/ur/docs/vla/pipeline"
+  }
+}

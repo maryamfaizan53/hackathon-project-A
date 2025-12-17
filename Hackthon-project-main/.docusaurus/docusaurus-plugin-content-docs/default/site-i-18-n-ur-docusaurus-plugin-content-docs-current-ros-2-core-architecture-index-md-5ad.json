@@ -1,0 +1,26 @@
+{
+  "id": "ros2/core-architecture/index",
+  "title": "بنیادی فن تعمیر",
+  "description": "ROS 2 کی بنیاد ایک distributed system پر ہے جو processes (جنہیں \"nodes\" کہا جاتا ہے) پر مشتمل ہے، جو ایک دوسرے کے ساتھ مواصلت کر کے پیچیدہ ٹاسکس انجام دیتے ہیں۔",
+  "source": "@site/i18n/ur/docusaurus-plugin-content-docs/current/ros2/core-architecture/index.md",
+  "sourceDirName": "ros2/core-architecture",
+  "slug": "/ros2/core-architecture/",
+  "permalink": "/ur/docs/ros2/core-architecture/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/ros2/core-architecture/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "بنیادی فن تعمیر"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ROS 2 کا تعارف",
+    "permalink": "/ur/docs/ros2/introduction/"
+  },
+  "next": {
+    "title": "مواصلاتی پیٹرنز",
+    "permalink": "/ur/docs/ros2/communication-patterns/"
+  }
+}

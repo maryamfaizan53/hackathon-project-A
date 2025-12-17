@@ -1,0 +1,26 @@
+{
+  "id": "hardware/edge-computing-jetson",
+  "title": "ایج کمپیوٹنگ اور اینویڈیا جیٹسَن",
+  "description": "اگرچہ آپ زیادہ تر ڈیولپمنٹ اپنے ورک اسٹیشن پر کرتے ہیں، لیکن آخرکار وہ کوڈ روبوٹ پر ہی چلتا ہے۔ جدید روبوٹکس میں زیادہ تر ایپلی کیشنز AI ماڈلز اور دیگر بھاری کمپیوٹیشنل کام ایک \"ایج\" ڈیوائس پر چلاتی ہیں—یعنی ایک چھوٹا، کم توانائی استعمال کرنے والا کمپیوٹر جو روبوٹ کے اندر نصب ہوتا ہے۔",
+  "source": "@site/i18n/ur/docusaurus-plugin-content-docs/current/hardware/edge-computing-jetson.md",
+  "sourceDirName": "hardware",
+  "slug": "/hardware/edge-computing-jetson",
+  "permalink": "/ur/docs/hardware/edge-computing-jetson",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/hardware/edge-computing-jetson.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "ایج کمپیوٹنگ اور اینویڈیا جیٹسَن"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ورک اسٹیشن کی ضروریات",
+    "permalink": "/ur/docs/hardware/workstation-requirements"
+  },
+  "next": {
+    "title": "سینسرز اور ایکچیویٹرز",
+    "permalink": "/ur/docs/hardware/sensors-actuators"
+  }
+}

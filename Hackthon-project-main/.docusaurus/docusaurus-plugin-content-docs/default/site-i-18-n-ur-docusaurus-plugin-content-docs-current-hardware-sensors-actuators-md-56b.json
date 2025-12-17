@@ -1,0 +1,26 @@
+{
+  "id": "hardware/sensors-actuators",
+  "title": "سینسرز اور ایکچیویٹرز",
+  "description": "سینسرز: روبوٹ کے حواس",
+  "source": "@site/i18n/ur/docusaurus-plugin-content-docs/current/hardware/sensors-actuators.md",
+  "sourceDirName": "hardware",
+  "slug": "/hardware/sensors-actuators",
+  "permalink": "/ur/docs/hardware/sensors-actuators",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/hardware/sensors-actuators.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "سینسرز اور ایکچیویٹرز"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ایج کمپیوٹنگ اور اینویڈیا جیٹسَن",
+    "permalink": "/ur/docs/hardware/edge-computing-jetson"
+  },
+  "next": {
+    "title": "لیب کا انفراسٹرکچر",
+    "permalink": "/ur/docs/hardware/lab-infrastructure"
+  }
+}

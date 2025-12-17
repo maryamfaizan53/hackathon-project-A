@@ -1,0 +1,22 @@
+{
+  "id": "hardware/conclusion/index",
+  "title": "نتیجہ",
+  "description": "درست ہارڈویئر سیٹ اپ کرنا کسی بھی روبوٹکس پروجیکٹ کا سب سے پہلا اور اہم قدم ہوتا ہے۔ صحیح ورک اسٹیشن کا انتخاب، ایج کمپیوٹنگ کی طاقت سے فائدہ اٹھانا، مناسب سینسرز اور ایکچیویٹرز کا انتخاب، اور اپنی لیب کو لازمی انفراسٹرکچر سے لیس کرنا — یہ سب آپ کو اگلی نسل کے ذہین روبوٹس بنانے کی مضبوط بنیاد فراہم کرتے ہیں۔",
+  "source": "@site/i18n/ur/docusaurus-plugin-content-docs/current/hardware/conclusion/index.md",
+  "sourceDirName": "hardware/conclusion",
+  "slug": "/hardware/conclusion/",
+  "permalink": "/ur/docs/hardware/conclusion/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/hardware/conclusion/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "نتیجہ"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "لیب کا انفراسٹرکچر",
+    "permalink": "/ur/docs/hardware/lab-infrastructure"
+  }
+}

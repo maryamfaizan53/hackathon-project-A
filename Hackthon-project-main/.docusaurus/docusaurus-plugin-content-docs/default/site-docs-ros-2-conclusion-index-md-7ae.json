@@ -1,0 +1,26 @@
+{
+  "id": "ros2/conclusion/index",
+  "title": "Conclusion",
+  "description": "ROS 2 is a powerful and flexible framework for robotics development. Its modular architecture, robust communication patterns, and strong community support make it an ideal choice for a wide range of robotics applications, from simple hobbyist projects to complex industrial and commercial systems. This chapter has provided a solid foundation for understanding the core concepts of ROS 2. In the following chapters, we will dive deeper into each of these topics and learn how to use them to build our own robotic systems.",
+  "source": "@site/docs/ros2/conclusion/index.md",
+  "sourceDirName": "ros2/conclusion",
+  "slug": "/ros2/conclusion/",
+  "permalink": "/docs/ros2/conclusion/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/ros2/conclusion/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Conclusion"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "URDF (Unified Robot Description Format)",
+    "permalink": "/docs/ros2/urdf/"
+  },
+  "next": {
+    "title": "3. Robot Simulation",
+    "permalink": "/docs/category/3-robot-simulation"
+  }
+}

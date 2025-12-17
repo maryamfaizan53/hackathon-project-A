@@ -1,0 +1,26 @@
+{
+  "id": "ros2/communication-patterns/index",
+  "title": "Communication Patterns",
+  "description": "ROS 2 provides several communication patterns for nodes to exchange data.",
+  "source": "@site/docs/ros2/communication-patterns/index.md",
+  "sourceDirName": "ros2/communication-patterns",
+  "slug": "/ros2/communication-patterns/",
+  "permalink": "/docs/ros2/communication-patterns/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/ros2/communication-patterns/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Communication Patterns"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Core Architecture",
+    "permalink": "/docs/ros2/core-architecture/"
+  },
+  "next": {
+    "title": "Python Integration (rclpy)",
+    "permalink": "/docs/ros2/python-integration-rclpy/"
+  }
+}

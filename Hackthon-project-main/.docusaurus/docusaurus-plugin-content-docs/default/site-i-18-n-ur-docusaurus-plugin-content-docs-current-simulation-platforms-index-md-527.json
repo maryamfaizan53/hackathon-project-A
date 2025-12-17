@@ -1,0 +1,26 @@
+{
+  "id": "simulation/platforms/index",
+  "title": "سیمولیشن پلیٹ فارمز: Gazebo بمقابلہ Unity",
+  "description": "روبوٹ سیمولیشن کے کئی پلیٹ فارمز دستیاب ہیں، ہر ایک کی اپنی طاقتیں اور کمزوریاں ہیں۔ روبوٹکس کمیونٹی میں دو سب سے مشہور پلیٹ فارمز Gazebo اور Unity ہیں۔",
+  "source": "@site/i18n/ur/docusaurus-plugin-content-docs/current/simulation/platforms/index.md",
+  "sourceDirName": "simulation/platforms",
+  "slug": "/simulation/platforms/",
+  "permalink": "/ur/docs/simulation/platforms/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/simulation/platforms/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "سیمولیشن پلیٹ فارمز: Gazebo بمقابلہ Unity"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "روبوٹکس میں سیمولیشن کی اہمیت",
+    "permalink": "/ur/docs/simulation/introduction/"
+  },
+  "next": {
+    "title": "Sensor Simulation",
+    "permalink": "/ur/docs/simulation/sensor-simulation/"
+  }
+}

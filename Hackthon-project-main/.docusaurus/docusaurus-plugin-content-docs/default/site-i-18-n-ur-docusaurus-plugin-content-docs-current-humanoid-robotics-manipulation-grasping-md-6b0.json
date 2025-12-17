@@ -1,0 +1,26 @@
+{
+  "id": "humanoid-robotics/manipulation-grasping",
+  "title": "منیپولیشن اور گرفت",
+  "description": "ہیومینائیڈ روبوٹ کے لیے اپنے ماحول میں اشیاء کو منیپولیٹ کرنا ضروری ہے۔ اس میں ادراک، منصوبہ بندی، اور کنٹرول کا امتزاج شامل ہے۔",
+  "source": "@site/i18n/ur/docusaurus-plugin-content-docs/current/humanoid-robotics/manipulation-grasping.md",
+  "sourceDirName": "humanoid-robotics",
+  "slug": "/humanoid-robotics/manipulation-grasping",
+  "permalink": "/ur/docs/humanoid-robotics/manipulation-grasping",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/humanoid-robotics/manipulation-grasping.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "منیپولیشن اور گرفت"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "دو ٹانگوں والی حرکت: چلنے کا فن",
+    "permalink": "/ur/docs/humanoid-robotics/bipedal-locomotion"
+  },
+  "next": {
+    "title": "انسان-روبوٹ تعامل (HRI)",
+    "permalink": "/ur/docs/humanoid-robotics/human-robot-interaction"
+  }
+}

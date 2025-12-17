@@ -1,0 +1,26 @@
+{
+  "id": "hardware/lab-infrastructure",
+  "title": "لیب کا انفراسٹرکچر",
+  "description": "روبوٹ کے ساتھ ساتھ، آپ کو روبوٹکس ڈیولپمنٹ کے لیے ایک اچھی طرح سے لیس لیب اسپیس کی بھی ضرورت ہوتی ہے۔",
+  "source": "@site/i18n/ur/docusaurus-plugin-content-docs/current/hardware/lab-infrastructure.md",
+  "sourceDirName": "hardware",
+  "slug": "/hardware/lab-infrastructure",
+  "permalink": "/ur/docs/hardware/lab-infrastructure",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/hardware/lab-infrastructure.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "لیب کا انفراسٹرکچر"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "سینسرز اور ایکچیویٹرز",
+    "permalink": "/ur/docs/hardware/sensors-actuators"
+  },
+  "next": {
+    "title": "نتیجہ",
+    "permalink": "/ur/docs/hardware/conclusion/"
+  }
+}

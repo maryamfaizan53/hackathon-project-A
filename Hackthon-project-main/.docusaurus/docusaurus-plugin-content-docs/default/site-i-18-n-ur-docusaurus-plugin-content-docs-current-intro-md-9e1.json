@@ -1,0 +1,24 @@
+{
+  "id": "intro",
+  "title": "کتاب کا تعارف",
+  "description": "مجسمہ شدہ ذہانت (Embodied Intelligence) کی حتمی رہنمائے کتاب میں آپ کا استقبال ہے!",
+  "source": "@site/i18n/ur/docusaurus-plugin-content-docs/current/intro.md",
+  "sourceDirName": ".",
+  "slug": "/intro",
+  "permalink": "/ur/docs/intro",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/intro.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "کتاب کا تعارف"
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "1. Physical AI Fundamentals",
+    "permalink": "/ur/docs/category/physical-ai"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "humanoid-robotics/bipedal-locomotion",
+  "title": "Bipedal Locomotion: The Art of Walking",
+  "description": "Walking on two legs is a remarkably complex task that humans perform with ease, but it is one of the biggest challenges in humanoid robotics. Bipedal locomotion requires a delicate balance of control, perception, and planning.",
+  "source": "@site/docs/humanoid-robotics/bipedal-locomotion.md",
+  "sourceDirName": "humanoid-robotics",
+  "slug": "/humanoid-robotics/bipedal-locomotion",
+  "permalink": "/docs/humanoid-robotics/bipedal-locomotion",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/humanoid-robotics/bipedal-locomotion.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "bipedal-locomotion",
+    "title": "Bipedal Locomotion: The Art of Walking"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Kinematics and Dynamics",
+    "permalink": "/docs/humanoid-robotics/kinematics-dynamics"
+  },
+  "next": {
+    "title": "Manipulation and Grasping",
+    "permalink": "/docs/humanoid-robotics/manipulation-grasping"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "humanoid-robotics/bipedal-locomotion",
+  "title": "دو ٹانگوں والی حرکت: چلنے کا فن",
+  "description": "دو ٹانگوں پر چلنا ایک نہایت پیچیدہ کام ہے جو انسان آسانی سے انجام دیتے ہیں، مگر ہیومینائیڈ روبوٹکس میں یہ سب سے بڑے چیلنجز میں سے ایک ہے۔ دو ٹانگوں والی حرکت کے لیے کنٹرول، ادراک، اور منصوبہ بندی کا ایک نازک توازن درکار ہوتا ہے۔",
+  "source": "@site/i18n/ur/docusaurus-plugin-content-docs/current/humanoid-robotics/bipedal-locomotion.md",
+  "sourceDirName": "humanoid-robotics",
+  "slug": "/humanoid-robotics/bipedal-locomotion",
+  "permalink": "/ur/docs/humanoid-robotics/bipedal-locomotion",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/humanoid-robotics/bipedal-locomotion.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "bipedal-locomotion",
+    "title": "دو ٹانگوں والی حرکت: چلنے کا فن"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "کائنیماٹکس اور ڈائنامکس",
+    "permalink": "/ur/docs/humanoid-robotics/kinematics-dynamics"
+  },
+  "next": {
+    "title": "منیپولیشن اور گرفت",
+    "permalink": "/ur/docs/humanoid-robotics/manipulation-grasping"
+  }
+}

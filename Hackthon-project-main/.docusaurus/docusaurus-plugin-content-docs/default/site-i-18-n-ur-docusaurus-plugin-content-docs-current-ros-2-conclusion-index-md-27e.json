@@ -1,0 +1,26 @@
+{
+  "id": "ros2/conclusion/index",
+  "title": "نتیجہ",
+  "description": "ROS 2 روبوٹکس کی ترقی کے لیے ایک طاقتور اور لچکدار فریم ورک ہے۔ اس کی modular architecture، مضبوط مواصلاتی پیٹرنز، اور فعال کمیونٹی سپورٹ اسے روبوٹکس کی مختلف ایپلیکیشنز کے لیے مثالی انتخاب بناتی ہیں، چاہے وہ سادہ hobbyist پروجیکٹس ہوں یا پیچیدہ صنعتی اور تجارتی سسٹمز۔ اس باب نے ROS 2 کے بنیادی تصورات کو سمجھنے کے لیے ایک مضبوط بنیاد فراہم کی ہے۔ اگلے ابواب میں، ہم ان موضوعات میں مزید گہرائی میں جائیں گے اور سیکھیں گے کہ انہیں اپنے روبوٹک سسٹمز بنانے کے لیے کیسے استعمال کیا جائے۔",
+  "source": "@site/i18n/ur/docusaurus-plugin-content-docs/current/ros2/conclusion/index.md",
+  "sourceDirName": "ros2/conclusion",
+  "slug": "/ros2/conclusion/",
+  "permalink": "/ur/docs/ros2/conclusion/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/ros2/conclusion/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "نتیجہ"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "URDF (یونائیفائیڈ روبوٹ ڈسکرپشن فارمیٹ)",
+    "permalink": "/ur/docs/ros2/urdf/"
+  },
+  "next": {
+    "title": "3. Robot Simulation",
+    "permalink": "/ur/docs/category/3-robot-simulation"
+  }
+}

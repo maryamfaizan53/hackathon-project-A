@@ -1,0 +1,26 @@
+{
+  "id": "hardware/sensors-actuators",
+  "title": "Sensors and Actuators",
+  "description": "Sensors: The Senses of the Robot",
+  "source": "@site/docs/hardware/sensors-actuators.md",
+  "sourceDirName": "hardware",
+  "slug": "/hardware/sensors-actuators",
+  "permalink": "/docs/hardware/sensors-actuators",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/hardware/sensors-actuators.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Sensors and Actuators"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Edge Computing and the NVIDIA Jetson",
+    "permalink": "/docs/hardware/edge-computing-jetson"
+  },
+  "next": {
+    "title": "Lab Infrastructure",
+    "permalink": "/docs/hardware/lab-infrastructure"
+  }
+}

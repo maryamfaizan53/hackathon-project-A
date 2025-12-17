@@ -1,0 +1,26 @@
+{
+  "id": "simulation/introduction/index",
+  "title": "روبوٹکس میں سیمولیشن کی اہمیت",
+  "description": "سیمولیشن جدید روبوٹکس کی ترقی میں ایک لازمی ٹول ہے۔ یہ ایک ورچوئل ماحول فراہم کرتا ہے جہاں روبوٹس کو بغیر مہنگے ہارڈویئر کو نقصان پہنچائے یا انسانوں کو خطرے میں ڈالے ٹیسٹ، تربیت اور ڈیبگ کیا جا سکتا ہے۔ روبوٹ کے رویے کو کنٹرول شدہ اور دہرائے جانے والے ماحول میں سیمولیٹ کرنے کی صلاحیت ترقیاتی عمل کو تیز کرتی ہے اور پیچیدہ مناظرات کی جانچ کے مواقع فراہم کرتی ہے جو حقیقی دنیا میں مشکل یا ناممکن ہوں۔",
+  "source": "@site/i18n/ur/docusaurus-plugin-content-docs/current/simulation/introduction/index.md",
+  "sourceDirName": "simulation/introduction",
+  "slug": "/simulation/introduction/",
+  "permalink": "/ur/docs/simulation/introduction/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/simulation/introduction/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "روبوٹکس میں سیمولیشن کی اہمیت"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "3. Robot Simulation",
+    "permalink": "/ur/docs/category/3-robot-simulation"
+  },
+  "next": {
+    "title": "سیمولیشن پلیٹ فارمز: Gazebo بمقابلہ Unity",
+    "permalink": "/ur/docs/simulation/platforms/"
+  }
+}

@@ -1,0 +1,685 @@
+/* ChatKit Premium Professional Styling - Electric Blue & Violet Theme */
+
+/* Main Container - Premium Glassmorphism */
+.chatkit-container {
+  position: fixed;
+  bottom: 90px;
+  right: 24px;
+  z-index: 9999;
+  width: 420px;
+  max-width: 90vw;
+  height: 85vh;
+  max-height: 700px;
+  display: flex;
+  flex-direction: column;
+  background: rgba(15, 23, 42, 0.85);
+  backdrop-filter: blur(20px) saturate(180%);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  border: 1px solid rgba(148, 163, 184, 0.15);
+  border-radius: 20px;
+  box-shadow:
+    0 20px 60px rgba(0, 0, 0, 0.5),
+    0 0 0 1px rgba(14, 165, 233, 0.1),
+    0 8px 32px rgba(14, 165, 233, 0.2);
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  overflow: hidden;
+}
+
+.chatkit-container.closed {
+  transform: translateY(30px) scale(0.95);
+  opacity: 0;
+  pointer-events: none;
+}
+
+.chatkit-container.open {
+  transform: translateY(0) scale(1);
+  opacity: 1;
+}
+
+/* Premium Header with Gradient */
+.chatkit-header {
+  background: linear-gradient(135deg, #0ea5e9 0%, #8b5cf6 100%);
+  color: white;
+  padding: 20px 24px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 4px 12px rgba(14, 165, 233, 0.2);
+}
+
+.chatkit-header span {
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+/* Pulsing Robot Logo in Header */
+.chatkit-header span::before {
+  content: '⚡';
+  font-size: 28px;
+  display: inline-block;
+  animation: logoPulse 2s ease-in-out infinite;
+  filter: drop-shadow(0 2px 8px rgba(255, 255, 255, 0.3));
+}
+
+@keyframes logoPulse {
+
+  0%,
+  100% {
+    transform: scale(1);
+    opacity: 1;
+    filter: drop-shadow(0 2px 8px rgba(255, 255, 255, 0.3));
+  }
+
+  50% {
+    transform: scale(1.15);
+    opacity: 0.85;
+    filter: drop-shadow(0 4px 16px rgba(255, 255, 255, 0.6)) drop-shadow(0 0 20px rgba(14, 165, 233, 0.8));
+  }
+}
+
+/* Chat Body - Professional Dark */
+.chatkit-body {
+  background: linear-gradient(180deg, rgba(15, 23, 42, 0.95) 0%, rgba(12, 10, 9, 0.95) 100%);
+  color: #f8fafc;
+  padding: 20px;
+  flex-grow: 1;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* User Message - Premium Blue Gradient */
+.chatkit-message-user {
+  background: linear-gradient(135deg, #0ea5e9, #0284c7);
+  color: white;
+  padding: 12px 16px;
+  border-radius: 16px 16px 4px 16px;
+  margin: 4px 0;
+  align-self: flex-end;
+  max-width: 75%;
+  box-shadow:
+    0 4px 12px rgba(14, 165, 233, 0.3),
+    0 2px 4px rgba(0, 0, 0, 0.2);
+  font-size: 15px;
+  line-height: 1.5;
+  word-wrap: break-word;
+}
+
+/* Bot Message - Sophisticated Card */
+.chatkit-message-bot {
+  background: rgba(30, 41, 59, 0.8);
+  backdrop-filter: blur(8px);
+  color: #f8fafc;
+  padding: 14px 18px;
+  border-radius: 16px 16px 16px 4px;
+  margin: 4px 0;
+  border: 1px solid rgba(148, 163, 184, 0.2);
+  max-width: 80%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  font-size: 15px;
+  line-height: 1.6;
+  position: relative;
+}
+
+/* Bot Icon before message */
+.chatkit-message-bot::before {
+  content: '⚡';
+  position: absolute;
+  left: -32px;
+  top: 12px;
+  font-size: 20px;
+  filter: drop-shadow(0 0 8px rgba(14, 165, 233, 0.6));
+}
+
+/* Input Field - Premium Design */
+.chatkit-input {
+  background: rgba(30, 41, 59, 0.6);
+  backdrop-filter: blur(8px);
+  border: 1.5px solid rgba(148, 163, 184, 0.2);
+  color: white;
+  padding: 14px 16px;
+  border-radius: 12px;
+  width: 100%;
+  outline: none;
+  font-size: 15px;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.chatkit-input:focus {
+  border-color: #0ea5e9;
+  background: rgba(30, 41, 59, 0.8);
+  box-shadow:
+    0 0 0 3px rgba(14, 165, 233, 0.15),
+    0 4px 12px rgba(14, 165, 233, 0.2);
+}
+
+.chatkit-input::placeholder {
+  color: #94a3b8;
+}
+
+/* Send Button - Premium Gradient */
+.chatkit-send-button {
+  background: linear-gradient(135deg, #0ea5e9, #8b5cf6);
+  color: white;
+  border: none;
+  padding: 14px 28px;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 15px;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 4px 12px rgba(14, 165, 233, 0.4);
+}
+
+.chatkit-send-button:hover {
+  transform: translateY(-2px);
+  box-shadow:
+    0 8px 20px rgba(14, 165, 233, 0.5),
+    0 4px 12px rgba(139, 92, 246, 0.3);
+}
+
+.chatkit-send-button:active {
+  transform: translateY(0);
+}
+
+/* FAB Toggle Button - Premium Floating Action */
+/* Unified Chat Trigger */
+.chatkit-unified-trigger {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  background: linear-gradient(135deg, #0ea5e9, #8b5cf6);
+  border-radius: 50px;
+  height: 64px;
+  min-width: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0;
+  box-shadow:
+    0 8px 24px rgba(14, 165, 233, 0.4),
+    0 4px 12px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  z-index: 9998;
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  overflow: hidden;
+  animation: triggerFloat 3s ease-in-out infinite;
+}
+
+.chatkit-unified-trigger.extended {
+  width: auto;
+  padding-right: 20px;
+  background: rgba(15, 23, 42, 0.95);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(148, 163, 184, 0.2);
+  box-shadow:
+    0 8px 32px rgba(0, 0, 0, 0.4),
+    0 0 0 1px rgba(14, 165, 233, 0.1);
+}
+
+.chatkit-unified-trigger:hover {
+  transform: translateY(-2px);
+  box-shadow:
+    0 12px 32px rgba(14, 165, 233, 0.5),
+    0 6px 16px rgba(0, 0, 0, 0.3);
+}
+
+.chatkit-trigger-icon-wrapper {
+  width: 64px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  z-index: 2;
+}
+
+.chatkit-unified-trigger.extended .chatkit-trigger-icon-wrapper svg {
+  color: #38bdf8;
+  filter: drop-shadow(0 0 8px rgba(56, 189, 248, 0.5));
+}
+
+.chatkit-unified-trigger:not(.extended) .chatkit-trigger-icon-wrapper svg {
+  color: white;
+}
+
+/* Pulsing Ring Animation */
+.chatkit-toggle-button::before {
+  content: '';
+  position: absolute;
+  top: -6px;
+  left: -6px;
+  right: -6px;
+  bottom: -6px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #0ea5e9, #8b5cf6);
+  opacity: 0;
+  animation: pulseRing 2.5s ease-in-out infinite;
+  z-index: -1;
+}
+
+/* Second pulse ring */
+.chatkit-toggle-button::after {
+  content: '';
+  position: absolute;
+  top: -12px;
+  left: -12px;
+  right: -12px;
+  bottom: -12px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #0ea5e9, #8b5cf6);
+  opacity: 0;
+  animation: pulseRing 2.5s ease-in-out infinite 0.5s;
+  z-index: -2;
+}
+
+@keyframes fabPulse {
+
+  0%,
+  100% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.05);
+    box-shadow:
+      0 12px 32px rgba(14, 165, 233, 0.7),
+      0 6px 16px rgba(139, 92, 246, 0.5),
+      0 0 40px rgba(14, 165, 233, 0.3);
+  }
+}
+
+@keyframes pulseRing {
+  0% {
+    opacity: 0.6;
+    transform: scale(1);
+  }
+
+  50% {
+    opacity: 0.3;
+    transform: scale(1.15);
+  }
+
+  100% {
+    opacity: 0;
+    transform: scale(1.3);
+  }
+}
+
+.chatkit-toggle-button:hover {
+  transform: scale(1.1) rotate(5deg);
+  box-shadow:
+    0 12px 32px rgba(14, 165, 233, 0.6),
+    0 6px 16px rgba(139, 92, 246, 0.4);
+}
+
+.chatkit-toggle-button:active {
+  transform: scale(1.05);
+}
+
+/* Custom Chat Icon - CSS Only */
+.chatkit-fab-icon {
+  width: 34px;
+  height: 34px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Chat bubble */
+.chatkit-fab-icon::before {
+  content: '';
+  position: absolute;
+  width: 30px;
+  height: 26px;
+  background: white;
+  border-radius: 14px 14px 14px 3px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Blinking dots */
+.chatkit-fab-icon::after {
+  content: '';
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  background: #0ea5e9;
+  border-radius: 50%;
+  box-shadow: 8px 0 0 #0ea5e9, 16px 0 0 #0ea5e9;
+  animation: dotsTyping 1.4s ease-in-out infinite;
+  top: 50%;
+  left: 50%;
+  transform: translate(-60%, -50%);
+  z-index: 1;
+}
+
+.chatkit-trigger-text {
+  color: #f8fafc;
+  font-weight: 600;
+  font-size: 15px;
+  white-space: nowrap;
+  opacity: 0;
+  transform: translateX(-10px);
+  animation: fadeInUp 0.3s forwards 0.1s;
+  margin-right: 12px;
+}
+
+.chatkit-trigger-close-button {
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  color: #94a3b8;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.2s;
+  opacity: 0;
+  animation: fadeIn 0.3s forwards 0.2s;
+}
+
+.chatkit-trigger-close-button:hover {
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes triggerFloat {
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-6px);
+  }
+}
+
+/* Close Mode Button (When chat is open) */
+.chatkit-toggle-button.close-mode {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: rgba(15, 23, 42, 0.8);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 9998;
+  transition: all 0.3s;
+}
+
+.chatkit-toggle-button.close-mode:hover {
+  background: rgba(30, 41, 59, 0.9);
+  transform: scale(1.05);
+}
+
+
+
+
+
+/* Header Close Button */
+.chatkit-close-button {
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s;
+}
+
+.chatkit-close-button:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+/* Selection Button - Premium */
+.chatkit-selection-button {
+  position: absolute;
+  background: linear-gradient(135deg, #0ea5e9, #8b5cf6);
+  color: white;
+  padding: 10px 16px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  z-index: 10000;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  box-shadow: 0 6px 16px rgba(14, 165, 233, 0.4);
+  transition: all 0.2s;
+}
+
+.chatkit-selection-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(14, 165, 233, 0.5);
+}
+
+.chatkit-selection-button-icon {
+  color: white;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
+}
+
+/* Selected Text Preview */
+.chatkit-selected-text-preview {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 20px;
+  background: rgba(30, 41, 59, 0.8);
+  border-bottom: 1px solid rgba(148, 163, 184, 0.2);
+}
+
+.chatkit-selected-text-icon {
+  color: #38bdf8;
+}
+
+.chatkit-selected-text-content-wrapper {
+  flex-grow: 1;
+}
+
+.chatkit-selected-text-label {
+  font-size: 12px;
+  font-weight: 700;
+  color: #0ea5e9;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.chatkit-selected-text-content {
+  font-size: 14px;
+  color: #f8fafc;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-top: 2px;
+}
+
+.chatkit-selected-text-close-button {
+  background: none;
+  border: none;
+  color: #cbd5e1;
+  font-size: 20px;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.chatkit-selected-text-close-button:hover {
+  color: white;
+}
+
+/* Loading State - Premium Spinner */
+.chatkit-loading-fallback,
+.chatkit-error-fallback {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  gap: 20px;
+  color: white;
+  flex-grow: 1;
+}
+
+.chatkit-loading-spinner {
+  width: 48px;
+  height: 48px;
+  border: 3px solid rgba(148, 163, 184, 0.2);
+  border-top-color: #0ea5e9;
+  border-right-color: #8b5cf6;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Error State */
+.chatkit-error-icon {
+  width: 56px;
+  height: 56px;
+  color: #f59e0b;
+  filter: drop-shadow(0 4px 8px rgba(245, 158, 11, 0.3));
+}
+
+.chatkit-error-title {
+  font-weight: 700;
+  font-size: 20px;
+  color: #f8fafc;
+}
+
+.chatkit-error-message {
+  font-size: 15px;
+  color: #cbd5e1;
+  text-align: center;
+  line-height: 1.6;
+}
+
+/* Premium Scrollbar */
+.chatkit-body::-webkit-scrollbar {
+  width: 10px;
+}
+
+.chatkit-body::-webkit-scrollbar-track {
+  background: rgba(15, 23, 42, 0.5);
+  border-radius: 10px;
+}
+
+.chatkit-body::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #0ea5e9, #8b5cf6);
+  border-radius: 10px;
+  border: 2px solid rgba(15, 23, 42, 0.5);
+}
+
+.chatkit-body::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #38bdf8, #a78bfa);
+  box-shadow: 0 0 8px rgba(14, 165, 233, 0.5);
+}
+
+/* Typing Indicator */
+.chatkit-typing-indicator {
+  display: flex;
+  gap: 6px;
+  padding: 12px 16px;
+  background: rgba(30, 41, 59, 0.6);
+  border-radius: 16px;
+  width: fit-content;
+  max-width: 80px;
+}
+
+.chatkit-typing-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #0ea5e9;
+  animation: typingBounce 1.4s infinite;
+}
+
+.chatkit-typing-dot:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.chatkit-typing-dot:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+@keyframes typingBounce {
+
+  0%,
+  60%,
+  100% {
+    transform: translateY(0);
+    opacity: 0.5;
+  }
+
+  30% {
+    transform: translateY(-10px);
+    opacity: 1;
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .chatkit-container {
+    width: calc(100vw - 32px);
+    height: calc(100vh - 120px);
+    bottom: 80px;
+    right: 16px;
+  }
+
+  .chatkit-toggle-button {
+    width: 56px;
+    height: 56px;
+    bottom: 16px;
+    right: 16px;
+  }
+
+  .chatkit-popup-message {
+    right: 16px;
+    bottom: 84px;
+    max-width: calc(100vw - 100px);
+  }
+}

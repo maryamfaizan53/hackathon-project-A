@@ -1,0 +1,26 @@
+{
+  "id": "humanoid-robotics/manipulation-grasping",
+  "title": "Manipulation and Grasping",
+  "description": "For a humanoid robot to be truly useful, it must be able to manipulate objects in its environment. This involves a combination of perception, planning, and control.",
+  "source": "@site/docs/humanoid-robotics/manipulation-grasping.md",
+  "sourceDirName": "humanoid-robotics",
+  "slug": "/humanoid-robotics/manipulation-grasping",
+  "permalink": "/docs/humanoid-robotics/manipulation-grasping",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/humanoid-robotics/manipulation-grasping.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Manipulation and Grasping"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Bipedal Locomotion: The Art of Walking",
+    "permalink": "/docs/humanoid-robotics/bipedal-locomotion"
+  },
+  "next": {
+    "title": "Human-Robot Interaction (HRI)",
+    "permalink": "/docs/humanoid-robotics/human-robot-interaction"
+  }
+}

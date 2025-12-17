@@ -1,0 +1,26 @@
+{
+  "id": "ros2/urdf/index",
+  "title": "URDF (Unified Robot Description Format)",
+  "description": "The Unified Robot Description Format (URDF) is an XML format for describing the physical structure of a robot. It is a key component of the ROS ecosystem, used for modeling, simulation, and visualization.",
+  "source": "@site/docs/ros2/urdf/index.md",
+  "sourceDirName": "ros2/urdf",
+  "slug": "/ros2/urdf/",
+  "permalink": "/docs/ros2/urdf/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/ros2/urdf/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "URDF (Unified Robot Description Format)"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Python Integration (rclpy)",
+    "permalink": "/docs/ros2/python-integration-rclpy/"
+  },
+  "next": {
+    "title": "Conclusion",
+    "permalink": "/docs/ros2/conclusion/"
+  }
+}

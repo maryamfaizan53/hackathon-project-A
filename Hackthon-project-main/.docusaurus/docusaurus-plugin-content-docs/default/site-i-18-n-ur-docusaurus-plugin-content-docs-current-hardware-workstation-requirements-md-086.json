@@ -1,0 +1,26 @@
+{
+  "id": "hardware/workstation-requirements",
+  "title": "ورک اسٹیشن کی ضروریات",
+  "description": "آپ کا ورک اسٹیشن روبوٹکس ڈیولپمنٹ کا \"کمانڈ سینٹر\" ہوتا ہے۔ یہی وہ جگہ ہے جہاں آپ کوڈ لکھتے ہیں، سیمولیشنز چلاتے ہیں، اور ڈیٹا کا تجزیہ کرتے ہیں۔ ورک اسٹیشن کی ضروریات آپ کے پروجیکٹس کی پیچیدگی کے مطابق بدل سکتی ہیں، مگر یہاں کچھ بنیادی ہدایات دی گئی ہیں:",
+  "source": "@site/i18n/ur/docusaurus-plugin-content-docs/current/hardware/workstation-requirements.md",
+  "sourceDirName": "hardware",
+  "slug": "/hardware/workstation-requirements",
+  "permalink": "/ur/docs/hardware/workstation-requirements",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/hardware/workstation-requirements.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "ورک اسٹیشن کی ضروریات"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "اپنی روبوٹکس لیب بنانا",
+    "permalink": "/ur/docs/hardware/introduction/"
+  },
+  "next": {
+    "title": "ایج کمپیوٹنگ اور اینویڈیا جیٹسَن",
+    "permalink": "/ur/docs/hardware/edge-computing-jetson"
+  }
+}

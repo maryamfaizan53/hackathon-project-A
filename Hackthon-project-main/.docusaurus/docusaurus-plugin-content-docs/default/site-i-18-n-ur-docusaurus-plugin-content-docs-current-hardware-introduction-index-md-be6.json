@@ -1,0 +1,26 @@
+{
+  "id": "hardware/introduction/index",
+  "title": "اپنی روبوٹکس لیب بنانا",
+  "description": "ایک کامیاب روبوٹکس پروجیکٹ کی بنیاد ہمیشہ مضبوط ہارڈویئر سے شروع ہوتی ہے۔ چاہے آپ طالبعلم ہوں، محقق ہوں، یا ایک شوقیہ انجینئر—درست ہارڈویئر اور اچھی طرح سے لیس ورک اسپیس ہونا آپ کی روبوٹک تخلیقات کو حقیقت میں بدلنے کے لیے انتہائی ضروری ہے۔",
+  "source": "@site/i18n/ur/docusaurus-plugin-content-docs/current/hardware/introduction/index.md",
+  "sourceDirName": "hardware/introduction",
+  "slug": "/hardware/introduction/",
+  "permalink": "/ur/docs/hardware/introduction/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/hardware/introduction/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "اپنی روبوٹکس لیب بنانا"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "7. Hardware Setup",
+    "permalink": "/ur/docs/category/7-hardware-setup"
+  },
+  "next": {
+    "title": "ورک اسٹیشن کی ضروریات",
+    "permalink": "/ur/docs/hardware/workstation-requirements"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "vla/introduction/index",
+  "title": "The Convergence of Perception, Language, and Action",
+  "description": "Vision-Language-Action (VLA) models represent the cutting edge of AI, bringing together three distinct fields to create truly intelligent agents that can understand and interact with the world in a human-like way. VLAs are the key to building robots that can follow natural language commands, learn new tasks from observation, and collaborate with humans in a shared environment.",
+  "source": "@site/docs/vla/introduction/index.md",
+  "sourceDirName": "vla/introduction",
+  "slug": "/vla/introduction/",
+  "permalink": "/docs/vla/introduction/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/vla/introduction/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "The Convergence of Perception, Language, and Action"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "5. Vision-Language-Action (VLA)",
+    "permalink": "/docs/category/5-vision-language-action-vla"
+  },
+  "next": {
+    "title": "The VLA Pipeline",
+    "permalink": "/docs/vla/pipeline"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "title": {
+    "message": "Physical AI & Humanoid Robotics",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "Physical AI Logo",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Chapters": {
+    "message": "Chapters",
+    "description": "Navbar item with label Chapters"
+  },
+  "item.label.Hardware": {
+    "message": "Hardware",
+    "description": "Navbar item with label Hardware"
+  },
+  "item.label.About": {
+    "message": "About",
+    "description": "Navbar item with label About"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Navbar item with label GitHub"
+  }
+}

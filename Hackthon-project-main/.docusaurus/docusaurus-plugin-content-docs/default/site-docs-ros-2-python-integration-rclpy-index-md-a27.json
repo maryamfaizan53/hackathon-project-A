@@ -1,0 +1,26 @@
+{
+  "id": "ros2/python-integration-rclpy/index",
+  "title": "Python Integration (rclpy)",
+  "description": "rclpy is the official Python client library for ROS 2. It provides a Pythonic interface to all the core ROS 2 concepts, allowing developers to write ROS 2 nodes, publishers, subscribers, services, and actions in Python.",
+  "source": "@site/docs/ros2/python-integration-rclpy/index.md",
+  "sourceDirName": "ros2/python-integration-rclpy",
+  "slug": "/ros2/python-integration-rclpy/",
+  "permalink": "/docs/ros2/python-integration-rclpy/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/ros2/python-integration-rclpy/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Python Integration (rclpy)"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Communication Patterns",
+    "permalink": "/docs/ros2/communication-patterns/"
+  },
+  "next": {
+    "title": "URDF (Unified Robot Description Format)",
+    "permalink": "/docs/ros2/urdf/"
+  }
+}

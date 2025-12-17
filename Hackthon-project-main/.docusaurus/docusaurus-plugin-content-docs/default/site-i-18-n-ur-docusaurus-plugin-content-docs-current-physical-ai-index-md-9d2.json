@@ -1,0 +1,17 @@
+{
+  "id": "physical-ai/index",
+  "title": "فزیکل AI کے بنیادی اصول",
+  "description": "فزیکل AI کا تعارف",
+  "source": "@site/i18n/ur/docusaurus-plugin-content-docs/current/physical-ai/index.md",
+  "sourceDirName": "physical-ai",
+  "slug": "/physical-ai/",
+  "permalink": "/ur/docs/physical-ai/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/physical-ai/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "فزیکل AI کے بنیادی اصول"
+  }
+}

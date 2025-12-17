@@ -1,0 +1,26 @@
+{
+  "id": "humanoid-robotics/human-robot-interaction",
+  "title": "انسان-روبوٹ تعامل (HRI)",
+  "description": "جیسے جیسے ہیومینائیڈ روبوٹس ہماری روزمرہ زندگی میں زیادہ عام ہوتے جا رہے ہیں، یہ ضروری ہے کہ وہ انسانوں کے ساتھ محفوظ، قدرتی، اور آسان انداز میں تعامل کر سکیں۔ یہی انسان-روبوٹ تعامل (HRI) کا دائرہ ہے۔",
+  "source": "@site/i18n/ur/docusaurus-plugin-content-docs/current/humanoid-robotics/human-robot-interaction.md",
+  "sourceDirName": "humanoid-robotics",
+  "slug": "/humanoid-robotics/human-robot-interaction",
+  "permalink": "/ur/docs/humanoid-robotics/human-robot-interaction",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/humanoid-robotics/human-robot-interaction.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "انسان-روبوٹ تعامل (HRI)"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "منیپولیشن اور گرفت",
+    "permalink": "/ur/docs/humanoid-robotics/manipulation-grasping"
+  },
+  "next": {
+    "title": "نتیجہ",
+    "permalink": "/ur/docs/humanoid-robotics/conclusion/"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "humanoid-robotics/kinematics-dynamics",
+  "title": "کائنیماٹکس اور ڈائنامکس",
+  "description": "ہیومینائیڈ روبوٹ کی حرکت کائنیماٹکس اور ڈائنامکس کے اصولوں کے مطابق ہوتی ہے۔",
+  "source": "@site/i18n/ur/docusaurus-plugin-content-docs/current/humanoid-robotics/kinematics-dynamics.md",
+  "sourceDirName": "humanoid-robotics",
+  "slug": "/humanoid-robotics/kinematics-dynamics",
+  "permalink": "/ur/docs/humanoid-robotics/kinematics-dynamics",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/humanoid-robotics/kinematics-dynamics.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "کائنیماٹکس اور ڈائنامکس"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ہیومینائیڈ روبوٹکس کا عظیم چیلنج",
+    "permalink": "/ur/docs/humanoid-robotics/introduction/"
+  },
+  "next": {
+    "title": "دو ٹانگوں والی حرکت: چلنے کا فن",
+    "permalink": "/ur/docs/humanoid-robotics/bipedal-locomotion"
+  }
+}

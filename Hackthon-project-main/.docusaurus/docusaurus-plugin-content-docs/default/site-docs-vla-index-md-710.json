@@ -1,0 +1,17 @@
+{
+  "id": "vla/index",
+  "title": "Vision-Language-Action (VLA)",
+  "description": "The Convergence of Perception, Language, and Action",
+  "source": "@site/docs/vla/index.md",
+  "sourceDirName": "vla",
+  "slug": "/vla/",
+  "permalink": "/docs/vla/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/vla/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Vision-Language-Action (VLA)"
+  }
+}

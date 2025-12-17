@@ -1,0 +1,26 @@
+{
+  "id": "physical-ai/introduction/index",
+  "title": "Introduction to Physical AI",
+  "description": "Physical AI, often used interchangeably with Embodied AI, represents a paradigm shift in the field of artificial intelligence. It moves beyond the confines of digital computation and virtual environments to create intelligent systems that can perceive, reason, and act in the physical world. This is the domain of robots that walk, drones that fly, and autonomous cars that navigate our streets.",
+  "source": "@site/docs/physical-ai/introduction/index.md",
+  "sourceDirName": "physical-ai/introduction",
+  "slug": "/physical-ai/introduction/",
+  "permalink": "/docs/physical-ai/introduction/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/physical-ai/introduction/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Introduction to Physical AI"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "1. Physical AI Fundamentals",
+    "permalink": "/docs/category/physical-ai"
+  },
+  "next": {
+    "title": "Core Principles of Embodied Intelligence",
+    "permalink": "/docs/physical-ai/core-principles/"
+  }
+}

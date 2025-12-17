@@ -1,0 +1,26 @@
+{
+  "id": "hardware/edge-computing-jetson",
+  "title": "Edge Computing and the NVIDIA Jetson",
+  "description": "While your workstation is where you will do most of your development, the code you write will ultimately run on a robot. For many modern robotics applications, this means running AI models and other computationally intensive tasks on an \"edge\" device—a small, low-power computer that is embedded on the robot itself.",
+  "source": "@site/docs/hardware/edge-computing-jetson.md",
+  "sourceDirName": "hardware",
+  "slug": "/hardware/edge-computing-jetson",
+  "permalink": "/docs/hardware/edge-computing-jetson",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/hardware/edge-computing-jetson.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Edge Computing and the NVIDIA Jetson"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Workstation Requirements",
+    "permalink": "/docs/hardware/workstation-requirements"
+  },
+  "next": {
+    "title": "Sensors and Actuators",
+    "permalink": "/docs/hardware/sensors-actuators"
+  }
+}

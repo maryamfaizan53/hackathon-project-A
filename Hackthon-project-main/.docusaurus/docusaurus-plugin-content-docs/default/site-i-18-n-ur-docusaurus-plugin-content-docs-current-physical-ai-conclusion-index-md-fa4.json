@@ -1,0 +1,28 @@
+{
+  "id": "physical-ai/conclusion/index",
+  "title": "نتیجہ",
+  "description": "فزیکل AI ایک تیزی سے ترقی پذیر شعبہ ہے جس میں ہماری دنیا کو بدلنے کی صلاحیت موجود ہے۔ ذہین ایجنٹس تخلیق کر کے جو حقیقی دنیا میں کام کر سکتے ہیں، ہم خطرناک اور بورنگ کاموں کو خودکار بنا سکتے ہیں، بزرگوں اور معذور افراد کی مدد کر سکتے ہیں، اور سائنس اور خلا میں نئے میدان دریافت کر سکتے ہیں۔",
+  "source": "@site/i18n/ur/docusaurus-plugin-content-docs/current/physical-ai/conclusion/index.md",
+  "sourceDirName": "physical-ai/conclusion",
+  "slug": "/physical-ai/conclusion/",
+  "permalink": "/ur/docs/physical-ai/conclusion/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/physical-ai/conclusion/index.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "title": "نتیجہ",
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ڈیجیٹل سے فزیکل منتقلی",
+    "permalink": "/ur/docs/physical-ai/digital-to-physical-transition/"
+  },
+  "next": {
+    "title": "2. ROS 2 (Robot Operating System)",
+    "permalink": "/ur/docs/category/2-ros-2-robot-operating-system"
+  }
+}

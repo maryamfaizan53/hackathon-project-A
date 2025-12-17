@@ -1,0 +1,26 @@
+{
+  "id": "simulation/conclusion/index",
+  "title": "نتیجہ",
+  "description": "سیمولیشن جدید روبوٹکس کی ترقی کے لیے ایک اہم ٹول ہے۔ Gazebo اور Unity جیسے پلیٹ فارم روبوٹز کے ٹیسٹنگ، ٹریننگ، اور ڈیبگنگ کے لیے طاقتور اور لچکدار ماحول فراہم کرتے ہیں۔ مختلف پلیٹ فارمز کی مضبوطی اور کمزوریوں اور سینسر سیمولیشن کے اصولوں کو سمجھ کر، آپ سیمولیشن کو مؤثر طریقے سے استعمال کر کے اپنے روبوٹکس پروجیکٹس کو تیز کر سکتے ہیں۔",
+  "source": "@site/i18n/ur/docusaurus-plugin-content-docs/current/simulation/conclusion/index.md",
+  "sourceDirName": "simulation/conclusion",
+  "slug": "/simulation/conclusion/",
+  "permalink": "/ur/docs/simulation/conclusion/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/simulation/conclusion/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "نتیجہ"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Sensor Simulation",
+    "permalink": "/ur/docs/simulation/sensor-simulation/"
+  },
+  "next": {
+    "title": "5. Vision-Language-Action (VLA)",
+    "permalink": "/ur/docs/category/5-vision-language-action-vla"
+  }
+}

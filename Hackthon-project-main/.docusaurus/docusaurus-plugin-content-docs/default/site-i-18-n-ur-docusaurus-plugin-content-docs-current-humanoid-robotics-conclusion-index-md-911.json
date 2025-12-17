@@ -1,0 +1,26 @@
+{
+  "id": "humanoid-robotics/conclusion/index",
+  "title": "نتیجہ",
+  "description": "ہیومینائیڈ روبوٹکس ایک ایسا شعبہ ہے جس میں بے شمار چیلنجز اور مواقع موجود ہیں۔ میکانکس، کنٹرول، ادراک، اور مصنوعی ذہانت میں ترقی کو یکجا کر کے ہم ایسے روبوٹس کے مزید قریب پہنچ رہے ہیں جو ہمارے ساتھ روزمرہ زندگی میں چل سکیں، بات کر سکیں، اور کام کر سکیں۔ یہ سفر لمبا ہے، لیکن اس کے ممکنہ فائدے بہت عظیم ہیں۔",
+  "source": "@site/i18n/ur/docusaurus-plugin-content-docs/current/humanoid-robotics/conclusion/index.md",
+  "sourceDirName": "humanoid-robotics/conclusion",
+  "slug": "/humanoid-robotics/conclusion/",
+  "permalink": "/ur/docs/humanoid-robotics/conclusion/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/humanoid-robotics/conclusion/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "نتیجہ"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "انسان-روبوٹ تعامل (HRI)",
+    "permalink": "/ur/docs/humanoid-robotics/human-robot-interaction"
+  },
+  "next": {
+    "title": "7. Hardware Setup",
+    "permalink": "/ur/docs/category/7-hardware-setup"
+  }
+}

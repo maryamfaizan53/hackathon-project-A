@@ -1,0 +1,26 @@
+{
+  "id": "physical-ai/core-principles/index",
+  "title": "مجسم ذہانت کے بنیادی اصول",
+  "description": "مجسم ذہانت (Embodied Intelligence) کا بنیادی اصول یہ ہے کہ ذہانت صرف ایک غیر جسمانی دماغ کی خصوصیت نہیں بلکہ ایک ایجنٹ کے اپنے ماحول کے ساتھ جسمانی تعاملات سے ابھرتی ہوئی خصوصیت ہے۔ جسم صرف دماغ کے لیے ایک ظرف نہیں؛ یہ علمی عمل کا ایک لازمی حصہ ہے۔",
+  "source": "@site/i18n/ur/docusaurus-plugin-content-docs/current/physical-ai/core-principles/index.md",
+  "sourceDirName": "physical-ai/core-principles",
+  "slug": "/physical-ai/core-principles/",
+  "permalink": "/ur/docs/physical-ai/core-principles/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/physical-ai/core-principles/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "مجسم ذہانت کے بنیادی اصول"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "فزیکل AI کا تعارف",
+    "permalink": "/ur/docs/physical-ai/introduction/"
+  },
+  "next": {
+    "title": "ڈیجیٹل سے فزیکل منتقلی",
+    "permalink": "/ur/docs/physical-ai/digital-to-physical-transition/"
+  }
+}

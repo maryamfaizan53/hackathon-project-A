@@ -1,0 +1,17 @@
+{
+  "id": "physical-ai/index",
+  "title": "Physical AI Fundamentals",
+  "description": "Introduction to Physical AI",
+  "source": "@site/docs/physical-ai/index.md",
+  "sourceDirName": "physical-ai",
+  "slug": "/physical-ai/",
+  "permalink": "/docs/physical-ai/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/physical-ai/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Physical AI Fundamentals"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "vla/llm-role",
+  "title": "The Role of Large Language Models in Robotics",
+  "description": "The recent advances in Large Language Models have had a transformative impact on the field of robotics. LLMs are not just powerful language models; they are also powerful reasoning engines that can be used to solve a wide range of robotics problems.",
+  "source": "@site/docs/vla/llm-role.md",
+  "sourceDirName": "vla",
+  "slug": "/vla/llm-role",
+  "permalink": "/docs/vla/llm-role",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/vla/llm-role.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "The Role of Large Language Models in Robotics"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "The VLA Pipeline",
+    "permalink": "/docs/vla/pipeline"
+  },
+  "next": {
+    "title": "Conclusion",
+    "permalink": "/docs/vla/conclusion/"
+  }
+}
